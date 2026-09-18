@@ -1,45 +1,41 @@
 # Contribution Guidelines
 
-Thanks for helping keep this list small and useful. Our differentiator is **editorial notes + community research**, not coverage.
+Thanks for helping keep this list small and useful. Our differentiator is **editorial notes + community research** (especially X discussion), not coverage.
 
 ## What belongs here
 
-Your entry should meet **at least two** of:
+### Direct Jev / TypeSafe
+
+Meet **at least two** of:
 
 1. Verified TypeSafe / Jev (System One) usage, or official TypeSafe / platform docs.
-2. A pattern someone can reuse (action space, cost/latency, routing, review, data Q&A).
+2. A reusable pattern (action space, cost/latency, routing, review, data Q&A).
 3. Real public discussion (X thread, launch post, measured benchmark others cite).
+
+### Jev-like / related models
+
+Projects that **do not** call TypeSafe may still qualify if X (or HN) discussion shows practical interest or heat. Label them under **Jev-like & related models** and say they are independent / inspired-by.
 
 ## What does not
 
-- Name collisions unrelated to TypeSafe Jev.
-- Another thin wrapper of [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) with no new surface or numbers.
+- Name collisions unrelated to TypeSafe Jev or the System One idea.
+- Thin wrappers of [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) with no new surface, numbers, or discussion.
 - Mega-list dumps or “add my 40 repos.”
-- Open replicas that call themselves Jev — put them under **Open replicas** and say they are independent.
+- Calling an open replica “Jev” without a clear independent label.
 
 ## PR format
 
 1. One suggestion per pull request.
-2. Add the entry in the right section (bottom of the section is fine).
+2. Update English [readme.md](readme.md) first.
 3. Format: `- [name](url) - Description ends with a period.`
-4. In the PR body, answer:
-   - Why is this useful or high-potential?
-   - Which curation criteria does it hit?
-   - Link to discussion or measurements (strongly preferred).
-   - If similar to an existing entry: how is it better?
-5. Update **English** [readme.md](readme.md) first, then mirror structure/entries in [readme.zh-TW.md](readme.zh-TW.md) and [readme.zh-CN.md](readme.zh-CN.md) (or note that translation follow-up is needed).
-6. Keep grammar clean; no trailing spaces; English descriptions in `readme.md` (translations carry the same facts, not marketing fluff).
+4. PR body: why useful; criteria hit; discussion link; if similar to an existing entry, how better.
+5. Mirror locale files when you can: `readme.zh-TW.md`, `readme.zh-CN.md`, `readme.ja.md`, `readme.ko.md` (or note translation follow-up).
+6. No trailing whitespace; English descriptions are factual, not marketing.
 
 ## Editorial notes
 
-Maintainers may rewrite descriptions into short **observations** (why it matters, caveats). Stars alone are not enough. We may also add a “Skipped for now” note instead of merging a weak entry — that is intentional.
+Maintainers may rewrite into short observations. Stars alone are not enough. “Skipped for now” is intentional.
 
-## Lessons we steal from other lists
+## Upstream awesome
 
-- High bar, not “niche by default” ([awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)).
-- Clear scope and honest out-of-scope buckets ([awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)).
-- Language switcher + English as merge source of truth ([standard-readme](https://github.com/RichardLitt/standard-readme) i18n practice).
-
-## Creating an entry for sindresorhus/awesome
-
-Do not submit this list upstream until it has matured at least 30 days and still follows the [Awesome guidelines](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md).
+Do not submit to [sindresorhus/awesome](https://github.com/sindresorhus/awesome) until the list is ≥30 days old and still meets their guidelines.
