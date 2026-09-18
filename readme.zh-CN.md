@@ -81,7 +81,7 @@
 
 ## 代码代理
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction；高星／趋势强，无 launch 帖仍 keep。
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction；高星／趋势强，即使没有广为引用的 launch 帖。
 - [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 软件工厂监督。X：[@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
 - [jev-review（devagrawal09）](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 分阶段 review；见 roundup [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
 - [jev-review（NiazMorshed2007）](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP-first 时再优先。
@@ -90,12 +90,12 @@
 
 ## 路由器
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最常被引用的 router；X 弱于浏览器 demo，仍因实用 keep。
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最常被引用的 router；X 弱于浏览器 demo，仍因实用而收录。
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 语义路由。
 
 ## 数据与库
 
-- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 扩展；X 弱、niche 实用强故 keep。
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 扩展；X 弱、niche 实用强故仍收錄。
 
 ## 值得研究的 Demo
 

@@ -18,9 +18,8 @@ Mega-directories already cover **breadth** ([awesomejev.com](https://awesomejev.
 
 Borrowed from lists we admire (and adapted):
 
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/awesome?style=flat) / [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — curation over collection; high bar; say *why* something is awesome.
-- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ![GitHub stars](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted?style=flat) — sharp scope, honest “not here” buckets.
-- Multilingual READMEs — English is canonical for merges; other languages are first-class mirrors.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) / [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — curation over collection; high bar; say *why* something is awesome.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — sharp scope, honest “not here” buckets.
 
 ## Contents
 
@@ -93,7 +92,7 @@ Drop: dump directories, unused renames, thin Ultrafast clones, and name collisio
 
 ## Coding agents
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code plugin: Jev scores tool calls/results; kept context stays verbatim. High stars / strong trend; keep even without a found launch thread (Star ≠ X).
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code plugin: Jev scores tool calls/results; kept context stays verbatim. High stars and strong trend even without a widely cited launch thread.
 - [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - Software-factory supervision with Jev judging steps. X: [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717) (Codex supervision angle).
 - [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - Staged review + local dashboard. Cited in community roundups (e.g. [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)).
 - [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - Local-first MCP `jev_review`. Prefer when your stack is MCP-first; less X signal than the staged-review sibling.
@@ -102,12 +101,12 @@ Drop: dump directories, unused renames, thin Ultrafast clones, and name collisio
 
 ## Routers
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - Per-turn cheap/strong routing for Claude Code and Codex. Most-cited router pattern; weaker X signal than browser demos — keep for usefulness, watch cost regressions.
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - Per-turn cheap/strong routing for Claude Code and Codex. Most-cited router pattern; weaker X signal than browser demos, but widely useful — watch cost regressions.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Semantic HTTP routing for Hono. Small, clean “Jev picks a route” outside coding agents.
 
 ## Data & libraries
 
-- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - PostgreSQL extension: ask tables questions in plain language via Jev. Kept for the rare “Jev inside the database” angle (weak X; strong niche utility).
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - PostgreSQL extension: ask tables questions in plain language via Jev. Rare “Jev inside the database” angle — weaker X, strong niche utility.
 
 ## Demos worth studying
 
@@ -118,8 +117,8 @@ Drop: dump directories, unused renames, thin Ultrafast clones, and name collisio
 
 Independent projects and **related / inspired models** that explore System One–style decisions. They may **not** call TypeSafe Jev. Inclusion is driven by **discussion heat and study value**, not affiliation.
 
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - “Semantic ifs” from open models on a home 3090. Explicitly independent. Sparse X (e.g. [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)); keep as inspired-by reference.
-- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - Train a small model for one-pass option probabilities (Doom / chess / Wikispeedia). Sparse X + HN traction (~161 pts); keep as inspired-by / open-replica study.
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - “Semantic ifs” from open models on a home 3090. Explicitly independent. Sparse X (e.g. [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)); inspired-by reference.
+- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - Train a small model for one-pass option probabilities (Doom / chess / Wikispeedia). Sparse X + HN traction (~161 pts); inspired-by / open-replica study.
 - [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - Open “Jev recipe” (LoRA + constrained serving). Not affiliated. X: [@madiator](https://x.com/madiator/status/2100990591215783946); also on HN.
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only Jev-compatible API on SGLang. Not affiliated. Discussed on HN.
 - [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - Local Gemma/MLX option scoring. Not affiliated. HN discussion.
@@ -143,7 +142,6 @@ Use these when you want coverage over curation:
 
 See [contributing.md](contributing.md). PR: repo URL, why it is useful, which criterion it hits, and a public thread when possible.
 
-Translations: English `readme.md` is the merge source of truth; keep locale files in sync (or flag follow-up).
 
 ## License
 

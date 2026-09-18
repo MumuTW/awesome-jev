@@ -80,7 +80,7 @@
 
 ## 코딩 에이전트
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction. 고스타/트렌드로 keep.
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction. 고스타/트렌드로 수록.
 - [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 팩토리 감독. X: [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717).
 - [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 단계 review. [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556).
 - [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP 우선 시.
@@ -88,12 +88,12 @@
 
 ## 라우터
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 가장 많이 인용. X는 약해도 실용 keep.
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 가장 많이 인용. X는 약해도 실용적이라 수록.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 의미 라우터.
 
 ## 데이터 & 라이브러리
 
-- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 확장. X 약·니치 실용 keep.
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 확장. X는 약하지만 니치 실용성이 큼.
 
 ## 연구할 만한 데모
 
@@ -120,7 +120,6 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단.
 
 ## 기여
 
-[contributing.md](contributing.md). 머지 원본은 영어 `readme.md`.
 
 ## 라이선스
 
