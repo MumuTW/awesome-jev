@@ -2,7 +2,7 @@
 
 **語言：** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> 短一點、有主見的 [Jev](https://typesafe.ai) 導覽 — TypeSafe 的 System One（帶置信度的 typed 決策）— 外加時間線真的在吵的 **Jev-like** 模型。
+> 快速看懂風格鮮明的 [Jev](https://typesafe.ai)：TypeSafe 專為型別化決策（單選、評分、附帶信心度的布林值）設計的「系統一」模型，以及社群熱烈討論時值得關注的同類模型。
 
 看膩 400 個安靜 clone 的大雜燴了嗎？我們也是。這份清單刻意短，每條有**評語**（為什麼值得看、適合誰、要注意什麼），並靠**社群研究** — 可量測迴圈、X 上的 launch 串、大家一直在轉述的 pattern。希望你能偷到下一週就能用的東西。
 

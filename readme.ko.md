@@ -2,7 +2,7 @@
 
 **언어:** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> [Jev](https://typesafe.ai)(TypeSafe System One: 신뢰도 있는 typed 결정)를 짧게, 의견 있게 안내합니다. 타임라인이 진짜 뜨거운 **Jev-like** 모델도 포함.
+> [Jev](https://typesafe.ai)를 빠르게 파악 — TypeSafe가 타입드 결정(choice·score·신뢰도 있는 boolean)용으로 벼린 「System One」 모델, 그리고 커뮤니티가 뜨거울 때 볼 만한 동류 모델.
 
 조용한 clone 400개짜리 거대 디렉터리, 지겹죠? 우리도요. 목록은 짧게 두고, 항목마다 **노트**(왜 중요한지·누구용인지·주의점)를 달며, **커뮤니티 조사**(측정 루프, X 런치, 사람들이 인용하는 패턴)에 기대요. 다음 주에 바로 훔쳐 쓸  Dist을 찾으면 좋겠어요.
 

@@ -2,7 +2,7 @@
 
 **言語：** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> [Jev](https://typesafe.ai)（TypeSafe の System One：信頼度付き typed 決定）の、短くて意見のあるツアー。タイムラインが本当に騒いでいる **Jev-like** モデルも含む。
+> [Jev](https://typesafe.ai) を素早く掴む — TypeSafe の、型付き意思決定（choice／score／信頼度付き boolean）向けに研いだ「System One」モデル。コミュニティが熱く語る同類モデルも。
 
 400 個の静かな clone の巨大ディレクトリ、飽きましたよね。私たちも。ここは短く保ち、各項目に**ノート**（なぜ重要か・誰向けか・注意点）を付け、**コミュニティ調査**（測定ループ、X の launch、みんなが引用するパターン）に寄せます。次の実装に盗めるものが見つかると嬉しいです。
 

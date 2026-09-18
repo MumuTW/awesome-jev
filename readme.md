@@ -2,7 +2,7 @@
 
 **Languages:** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> The short, opinionated tour of [Jev](https://typesafe.ai) — TypeSafe's System One model for typed decisions (choice, score, boolean with confidence) — plus **Jev-like** models when the timeline is actually buzzing.
+> Get Jev fast — TypeSafe’s sharp “System One” model for typed decisions (choice, score, boolean with confidence) — plus kindred models worth watching when the community is buzzing.
 
 Tired of mega-directories with 400 quiet clones? Same. This list stays small, ships **notes** (why it matters, who it's for, what to watch), and leans on **community research** — measured loops, launch threads on X, patterns people keep quoting. Hope you find something worth stealing for your next build.
 
