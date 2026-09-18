@@ -33,6 +33,8 @@
 
 ## 怎么筛
 
+GitHub 条目旁的星数是 [Shields.io](https://shields.io) 徽章（打开页面时大致更新，不必每天 commit）。Hugging Face likes 用动态徽章。若要在文字里写死「★ 4972」这种数字，再请 agent 每日更新。
+
 ### 直接使用 Jev／TypeSafe
 
 至少满足 **两项**：真 API／官方、可偷师的 pattern、公开讨论（尤其 X）。
@@ -54,10 +56,10 @@
 
 - [TypeSafe](https://typesafe.ai) - 产品首页与 early-access console。
 - [System One 文档](https://docs.typesafe.ai) - 适合／不适合什么。
-- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) - 官方 TS／JS client。
-- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) - 官方 Python client。
-- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) - LLM 后端的 drop-in client，方便 A/B。
-- [skills](https://github.com/typesafe-ai/skills) - 官方 agent skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
+- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 官方 TS／JS client。
+- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 官方 Python client。
+- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - LLM 后端的 drop-in client，方便 A/B。
+- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - 官方 agent skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
 - [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare 模型条目。
 
 ## 平台
@@ -67,56 +69,56 @@
 
 ## 浏览器与电脑操作
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) - 旗舰循环；Flights ~7s／~$0.0039。X：[@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) - macOS OCR + Jev。X：[@awlevin](https://x.com/awlevin/status/2100262612428894676)。
-- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) - 库型 pilot；星数低、结构强。
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - 旗舰循环；Flights ~7s／~$0.0039。X：[@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X：[@awlevin](https://x.com/awlevin/status/2100262612428894676)。
+- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 库型 pilot；星数低、结构强。
 
 **暂不收录：** 无新测量／无 X 声量的 Ultrafast 薄包装（含 mobile，等有讨论再看）。
 
 ## 代码代理
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code compaction；高星／趋势强，无 launch 帖仍 keep。
-- [foreman](https://github.com/thruwire/foreman) - 软件工厂监督。X：[@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
-- [jev-review（devagrawal09）](https://github.com/devagrawal09/jev-review) - 分阶段 review；见 roundup [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
-- [jev-review（NiazMorshed2007）](https://github.com/NiazMorshed2007/jev-review) - MCP-first 时再优先。
-- [pi-jev](https://github.com/y0usaf/pi-jev) - Pi 决策层。
-- [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi 护栏。
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction；高星／趋势强，无 launch 帖仍 keep。
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 软件工厂监督。X：[@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
+- [jev-review（devagrawal09）](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 分阶段 review；见 roundup [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
+- [jev-review（NiazMorshed2007）](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP-first 时再优先。
+- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Pi 决策层。
+- [pi-warden](https://github.com/DevMortimer/pi-warden) ![GitHub stars](https://img.shields.io/github/stars/DevMortimer/pi-warden?style=flat) - Pi 护栏。
 
 ## 路由器
 
-- [jev-router](https://github.com/gargpratyush/jev-router) - 最常被引用的 router；X 弱于浏览器 demo，仍因实用 keep。
-- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) - Hono 语义路由。
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最常被引用的 router；X 弱于浏览器 demo，仍因实用 keep。
+- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 语义路由。
 
 ## 数据与库
 
-- [pg-jev](https://github.com/realZachi/pg-jev) - Postgres 扩展；X 弱、niche 实用强故 keep。
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 扩展；X 弱、niche 实用强故 keep。
 
 ## 值得研究的 Demo
 
-- [jev-trader](https://github.com/jarrodwatts/jev-trader) - Monad block 交易决策。X：[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) - 结构化状态玩 Mario。
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad block 交易决策。X：[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 结构化状态玩 Mario。
 
 ## Jev-like 与相关模型
 
 可不调用 TypeSafe；收录看**讨论热度与研究价值**。
 
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) - 开源「语义 if」。X 稀疏（如 [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)）；标 inspired-by。
-- [jevlike](https://github.com/vinnylarouge/jevlike) - 小模型一次通过选项概率；X 稀疏 + HN ~161 pts。
-- [nimble](https://github.com/bespokelabsai/nimble) - 开源「Jev 配方」（LoRA＋constrained serving）。非官方。X：[@madiator](https://x.com/madiator/status/2100990591215783946)；亦上 HN。
-- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only、兼容 Jev 形状的 API（SGLang）。非官方。HN 有讨论。
-- [open-jev](https://github.com/daseinlabs/open-jev) - 本地 Gemma／MLX option scoring。非官方。HN。
-- [mini-jev](https://github.com/r-ms/mini-jev) - Qwen3 letter-logits 小实验。非官方。HN。
-- [jevmlx](https://github.com/bnsd55/jevmlx) - Apple Silicon MLX 并行决策。非官方。X：[@beni_il_](https://x.com/beni_il_/status/2100617387116568956)；HN。
-- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - 并行 constrained／多字段（HF 模型）。非官方。强 X：[@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
-- [LitJev](https://github.com/zhengxuyu/LitJev) - 任意 LLM 包成类 Jev `/v1/systemone`。非官方。X：[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - 开源「语义 if」。X 稀疏（如 [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)）；标 inspired-by。
+- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 小模型一次通过选项概率；X 稀疏 + HN ~161 pts。
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - 开源「Jev 配方」（LoRA＋constrained serving）。非官方。X：[@madiator](https://x.com/madiator/status/2100990591215783946)；亦上 HN。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only、兼容 Jev 形状的 API（SGLang）。非官方。HN 有讨论。
+- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - 本地 Gemma／MLX option scoring。非官方。HN。
+- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits 小实验。非官方。HN。
+- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - Apple Silicon MLX 并行决策。非官方。X：[@beni_il_](https://x.com/beni_il_/status/2100617387116568956)；HN。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 并行 constrained／多字段（HF 模型）。非官方。强 X：[@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
+- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 任意 LLM 包成类 Jev `/v1/systemone`。非官方。X：[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
 
 有更多 X／HN 持续讨论时欢迎 PR。
 
 ## 相关清单
 
 - [awesomejev.com](https://awesomejev.com/)
-- [yibie/awesome-jev](https://github.com/yibie/awesome-jev)
-- [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)
+- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat)
+- [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat)
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/)
 
 ## 贡献

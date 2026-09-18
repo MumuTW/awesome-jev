@@ -32,6 +32,8 @@
 
 ## 選定基準
 
+GitHub 条目の星は [Shields.io](https://shields.io) バッジ（ページ表示時におおよそ更新。毎日の commit は不要）。HF likes は動的バッジ。本文に固定の「★ 4972」が必要なら日次 agent を。
+
 ### 直接 Jev／TypeSafe
 
 次のうち **2 つ以上**：実 API／公式、再利用できるパターン、公開議論（特に X）。
@@ -53,10 +55,10 @@
 
 - [TypeSafe](https://typesafe.ai) - 製品ホームと early access。
 - [System One docs](https://docs.typesafe.ai) - 向き／不向き。
-- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) - 公式 TS／JS。
-- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) - 公式 Python。
-- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) - LLM バックエンドの drop-in。
-- [skills](https://github.com/typesafe-ai/skills) - 公式 skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
+- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 公式 TS／JS。
+- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 公式 Python。
+- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - LLM バックエンドの drop-in。
+- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - 公式 skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
 - [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare 掲載。
 
 ## プラットフォーム
@@ -66,47 +68,47 @@
 
 ## ブラウザ＆コンピュータ操作
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) - 旗艦ループ。Flights ~7s／~$0.0039。X: [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) - macOS OCR + Jev。X: [@awlevin](https://x.com/awlevin/status/2100262612428894676)。
-- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) - ライブラリ型 pilot。Star 低・構造は強い。
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - 旗艦ループ。Flights ~7s／~$0.0039。X: [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X: [@awlevin](https://x.com/awlevin/status/2100262612428894676)。
+- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - ライブラリ型 pilot。Star 低・構造は強い。
 
 **当面スキップ:** 新測定も X も無い Ultrafast 薄ラッパ（mobile 含む）。
 
 ## コーディングエージェント
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code compaction。高 Star／トレンドで keep。
-- [foreman](https://github.com/thruwire/foreman) - ファクトリ監督。X: [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
-- [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) - 段階 review。[@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
-- [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) - MCP 優先時。
-- [pi-jev](https://github.com/y0usaf/pi-jev) / [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi 向けゲート／ガード。
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction。高 Star／トレンドで keep。
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - ファクトリ監督。X: [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
+- [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 段階 review。[@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
+- [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP 優先時。
+- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) / [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi 向けゲート／ガード。
 
 ## ルータ
 
-- [jev-router](https://github.com/gargpratyush/jev-router) - 最も引用されるルータ。X は弱めでも実用で keep。
-- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) - Hono 意味ルータ。
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最も引用されるルータ。X は弱めでも実用で keep。
+- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 意味ルータ。
 
 ## データ＆ライブラリ
 
-- [pg-jev](https://github.com/realZachi/pg-jev) - Postgres 拡張。X 弱・ニッチ実用で keep。
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 拡張。X 弱・ニッチ実用で keep。
 
 ## 研究価値のあるデモ
 
-- [jev-trader](https://github.com/jarrodwatts/jev-trader) - Monad ブロック取引。X: [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) - 構造化状態の Mario。
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad ブロック取引。X: [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 構造化状態の Mario。
 
 ## Jev-like と関連モデル
 
 TypeSafe 未使用可。**議論の熱と学習価値**で判断。
 
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) - オープンな semantic if。例: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)。
-- [jevlike](https://github.com/vinnylarouge/jevlike) - 一パス選択肢確率。X 疎 + HN ~161 pts。
-- [nimble](https://github.com/bespokelabsai/nimble) - オープンな Jev レシピ（LoRA＋constrained serving）。非公式。X: [@madiator](https://x.com/madiator/status/2100990591215783946); HN も。
-- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only の Jev 互換 API（SGLang）。非公式。HN。
-- [open-jev](https://github.com/daseinlabs/open-jev) - ローカル Gemma/MLX option scoring。非公式。HN。
-- [mini-jev](https://github.com/r-ms/mini-jev) - Qwen3 letter-logits の小実験。非公式。HN。
-- [jevmlx](https://github.com/bnsd55/jevmlx) - Apple Silicon MLX 並列決定。非公式。X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN。
-- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - 並列 constrained／多フィールド（HF）。非公式。強い X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
-- [LitJev](https://github.com/zhengxuyu/LitJev) - 任意 LLM を Jev-like `/v1/systemone` に。非公式。X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - オープンな semantic if。例: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)。
+- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 一パス選択肢確率。X 疎 + HN ~161 pts。
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - オープンな Jev レシピ（LoRA＋constrained serving）。非公式。X: [@madiator](https://x.com/madiator/status/2100990591215783946); HN も。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only の Jev 互換 API（SGLang）。非公式。HN。
+- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - ローカル Gemma/MLX option scoring。非公式。HN。
+- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits の小実験。非公式。HN。
+- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - Apple Silicon MLX 並列決定。非公式。X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 並列 constrained／多フィールド（HF）。非公式。強い X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
+- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 任意 LLM を Jev-like `/v1/systemone` に。非公式。X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
 
 ## 関連リスト
 
