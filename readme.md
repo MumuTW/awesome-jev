@@ -2,21 +2,23 @@
 
 **Languages:** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> Curated, high-signal projects built on [Jev](https://typesafe.ai) — TypeSafe AI's System One model for typed decisions (choice, score, boolean with confidence) — plus **Jev-like** models and replicas when public discussion shows real heat.
+> The short, opinionated tour of [Jev](https://typesafe.ai) — TypeSafe's System One model for typed decisions (choice, score, boolean with confidence) — plus **Jev-like** models when the timeline is actually buzzing.
+
+Tired of mega-directories with 400 quiet clones? Same. This list stays small, ships **notes** (why it matters, who it's for, what to watch), and leans on **community research** — measured loops, launch threads on X, patterns people keep quoting. Hope you find something worth stealing for your next build.
 
 ## What makes this list different
 
-Mega-directories already cover **breadth** ([awesomejev.com](https://awesomejev.com/), [yibie/awesome-jev](https://github.com/yibie/awesome-jev), [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)). We cover **judgment**.
+Mega-directories already cover **breadth** ([awesomejev.com](https://awesomejev.com/), [yibie/awesome-jev](https://github.com/yibie/awesome-jev), [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)). We cover **taste**.
 
 | Others often do | We do |
 | --- | --- |
-| Scrape / mirror hundreds of repos | Keep a short list you can finish in one sitting |
+| Scrape / mirror hundreds of repos | A short list you can finish with coffee |
 | One-line marketing blurbs | **Editorial notes** — why it matters, caveats, who it is for |
 | Stars as the ranking signal | **Community research** — measured loops, launch threads (especially X), patterns people actually quote |
-| Only “calls TypeSafe API” | Also **Jev-like / related models** when X (or HN) discussion shows practical interest — clearly labeled not TypeSafe |
-| Treat every fork as equal | Prefer best-in-class per pattern; skip thin Ultrafast wrappers |
+| Only “calls TypeSafe API” | Also **Jev-like / related models** when X (or HN) shows real interest — clearly labeled not TypeSafe |
+| Treat every fork as equal | Best-in-class per pattern; thin Ultrafast wrappers get a polite pass |
 
-Borrowed from lists we admire (and adapted):
+Standing on the shoulders of lists we like:
 
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) / [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — curation over collection; high bar; say *why* something is awesome.
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — sharp scope, honest “not here” buckets.
@@ -38,13 +40,16 @@ Borrowed from lists we admire (and adapted):
   - [Demos worth studying](#demos-worth-studying)
 - [Jev-like & related models](#jev-like--related-models)
 - [Related lists](#related-lists)
+- [Maintained by Grok Bot](#maintained-by-grok-bot)
 - [Contributing](#contributing)
 
 ## How we curate
 
+Two tracks. Be picky on both.
+
 ### Direct Jev / TypeSafe
 
-Keep when **at least two** are true:
+In when **at least two** are true:
 
 1. Real TypeSafe / Jev API usage (or official docs / SDK), not a name collision.
 2. You could ship or steal a pattern from it this week (cost, latency, action space, routing, review).
@@ -52,9 +57,9 @@ Keep when **at least two** are true:
 
 ### Jev-like / related models (may not call Jev)
 
-Keep when public discussion (especially **X**, sometimes HN) signals **practical interest or heat**, even if the project never calls TypeSafe. Label clearly as independent / inspired-by. Stars alone are not enough; a quoted thread or measured demo usually is.
+In when public discussion (especially **X**, sometimes HN) signals **practical interest or heat**, even if the project never calls TypeSafe. Label clearly as independent / inspired-by. Stars alone are not enough; a quoted thread or measured demo usually is.
 
-Drop: dump directories, unused renames, thin Ultrafast clones, and name collisions. If similar to an existing entry, argue in the PR **how it is better**.
+Out: dump directories, unused renames, thin Ultrafast clones, and name collisions. If similar to an existing entry, argue in the PR **how it is better**.
 
 ## Observations
 
@@ -86,7 +91,7 @@ Drop: dump directories, unused renames, thin Ultrafast clones, and name collisio
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS via OCR + Jev (~$0.0002/step in the author's table). X: [@awlevin](https://x.com/awlevin/status/2100262612428894676).
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - Library-shaped pilot (surface, perception, policy, verify, safety, traces). Low stars; strong structure if you design your own loop.
 
-**Skipped for now:** thin browser wrappers of Ultrafast without a new measurement or X traction (including mobile ports until discussion shows up).
+**Parking lot:** thin browser wrappers of Ultrafast with no new measurement or X traction (including mobile ports — ping us when the thread heats up).
 
 ## Coding agents
 
@@ -136,10 +141,16 @@ Use these when you want coverage over curation:
 - [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - Broader TypeSafe + System One + Jev resources.
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - Long-form explainer (SDK, Gateway, evaluate).
 
+## Maintained by Grok Bot
+
+This list is tended by **[Grok Bot](https://grok.com)** (with a human in the loop for the spicy calls). We watch what the community is building and arguing about, then keep the notes honest.
+
+If something here helped you ship — or you disagree with a call — open an issue or PR. **Hope you like it.** Pull requests with a good thread and a clear “why” make our day.
+
 ## Contributing
 
-See [contributing.md](contributing.md). PR: repo URL, why it is useful, which criterion it hits, and a public thread when possible.
+See [contributing.md](contributing.md). Drop a PR with the repo, why it belongs, which criterion it hits, and a public thread when you have one. Low-signal “also mentions Jev” PRs will get a friendly close.
 
 ## License
 
-[CC0](license) — same spirit as other awesome lists.
+[CC0](license) — share it, fork it, remix it. Same spirit as other awesome lists.

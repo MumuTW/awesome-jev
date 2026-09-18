@@ -2,18 +2,26 @@
 
 **言語：** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> [Jev](https://typesafe.ai)（TypeSafe AI の System One：信頼度付き typed 決定）向けの厳選リスト。公開議論で熱がある **Jev-like** モデル／レプリカも含む。
+> [Jev](https://typesafe.ai)（TypeSafe の System One：信頼度付き typed 決定）の、短くて意見のあるツアー。タイムラインが本当に騒いでいる **Jev-like** モデルも含む。
+
+400 個の静かな clone の巨大ディレクトリ、飽きましたよね。私たちも。ここは短く保ち、各項目に**ノート**（なぜ重要か・誰向けか・注意点）を付け、**コミュニティ調査**（測定ループ、X の launch、みんなが引用するパターン）に寄せます。次の実装に盗めるものが見つかると嬉しいです。
 
 ## このリストの差別化
 
-大規模ディレクトリは**網羅**（[awesomejev.com](https://awesomejev.com/) など）。ここは**判断**。
+大規模ディレクトリは**網羅**（[awesomejev.com](https://awesomejev.com/) など）。ここは**センス**。
 
 | よくあるやり方 | ここ |
 | --- | --- |
-| 数百リポジトリのスクレイプ | 一度で読める短いリスト |
+| 数百リポジトリのスクレイプ | コーヒー一杯で読める短さ |
 | 宣伝文句の一行 | **編集ノート**（なぜ重要か・注意点） |
-| Star 順 | **コミュニティ調査**（測定ループ、X の launch など） |
-| TypeSafe API 呼び出しのみ | X／HN で実用関心がある **Jev-like** も（非公式と明記） |
+| Star 順 | **コミュニティ調査**（測定ループ、X など） |
+| TypeSafe API 呼び出しのみ | 熱がある **Jev-like** も（非公式と明記） |
+| すべての fork を平等に | パターンごとのベスト；薄い Ultrafast ラッパは見送り |
+
+好きなリストの肩の上で：
+
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)／[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — 収集ではなくキュレーション。
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — スコープが明確で「ここには載せない」が正直。
 
 ## 目次
 
@@ -32,9 +40,12 @@
   - [研究価値のあるデモ](#研究価値のあるデモ)
 - [Jev-like と関連モデル](#jev-like-と関連モデル)
 - [関連リスト](#関連リスト)
+- [Grok Bot がメンテ](#grok-bot-がメンテ)
 - [貢献](#貢献)
 
 ## 選定基準
+
+二本立て。どちらも厳しめに。
 
 ### 直接 Jev／TypeSafe
 
@@ -74,7 +85,7 @@
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X: [@awlevin](https://x.com/awlevin/status/2100262612428894676)。
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - ライブラリ型 pilot。Star 低・構造は強い。
 
-**当面スキップ:** 新測定も X も無い Ultrafast 薄ラッパ（mobile 含む）。
+**駐車場:** 新測定も X も無い Ultrafast 薄ラッパ（mobile 含む）。
 
 ## コーディングエージェント
 
@@ -116,10 +127,16 @@ TypeSafe 未使用可。**議論の熱と学習価値**で判断。
 
 - [awesomejev.com](https://awesomejev.com/) · [yibie/awesome-jev](https://github.com/yibie/awesome-jev) · [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) · [Flavio Copes](https://flaviocopes.com/jev/)
 
+## Grok Bot がメンテ
+
+このリストは **[Grok Bot](https://grok.com)** が世話しています（大事な判断は人間も一瞥）。コミュニティが作り、議論しているものを見て、ノートを正直に保ちます。
+
+役に立ったら — あるいは異論があったら — issue や PR をどうぞ。**気に入ってもらえると嬉しいです。** 良いスレッドと「なぜ」がはっきりした PR 大歓迎。
+
 ## 貢献
 
-[contributing.md](contributing.md) を参照。PR には repo・有用な理由・選定基準・（あれば）公開スレッドを。
+[contributing.md](contributing.md) を参照。repo・有用な理由・選定基準・（あれば）公開スレッドを。
 
 ## ライセンス
 
-[CC0](license)
+[CC0](license) — 共有・fork・改変どうぞ。他の awesome list と同じ精神です。

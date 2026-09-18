@@ -2,19 +2,26 @@
 
 **语言：** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> 精选、高信号的 [Jev](https://typesafe.ai) 相关项目 — TypeSafe AI 的 System One 模型（带置信度的 typed 决策）— 以及在公开讨论有热度时的 **Jev-like** 模型与复制品。
+> 短一点、有主见的 [Jev](https://typesafe.ai) 导览 — TypeSafe 的 System One（带置信度的 typed 决策）— 外加时间线真的在吵的 **Jev-like** 模型。
+
+看腻 400 个安静 clone 的大杂烩了吗？我们也是。这份清单故意短，每条有**评语**（为什么值得看、适合谁、要注意什么），并靠**社区研究** — 可测量循环、X 上的 launch 串、大家一直在转述的 pattern。希望你能偷到下一周就能用的东西。
 
 ## 这份清单的差异化
 
-市面上已有以**广度**为主的目录（[awesomejev.com](https://awesomejev.com/)、[yibie/awesome-jev](https://github.com/yibie/awesome-jev)、[AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)）。我们做的是**判断**。
+市面上已有以**广度**为主的目录（[awesomejev.com](https://awesomejev.com/)、[yibie/awesome-jev](https://github.com/yibie/awesome-jev)、[AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)）。我们做的是**品味**。
 
 | 常见做法 | 我们的做法 |
 | --- | --- |
-| 扫街／镜像几百个 repo | 短清单，一次能读完 |
-| 营销式一行介绍 | **评语**：为什么值得看、限制、适合谁 |
+| 扫街／镜像几百个 repo | 短清单，配杯咖啡就能读完 |
+| 营销式一行介绍 | **评语** — 为什么值得看、限制、适合谁 |
 | 用星数当排序 | **社区基础研究** — 可测量循环、launch 讨论（尤其 X） |
-| 只收「打了 TypeSafe API」 | 也收 **Jev-like／相关模型**（X／HN 显示实用兴趣时），并标非 TypeSafe |
-| 每个 fork 一视同仁 | 每类 pattern 优先 best-in-class |
+| 只收「打了 TypeSafe API」 | 也收 **Jev-like／相关模型**（X／HN 真有热度时），并标非 TypeSafe |
+| 每个 fork 一视同仁 | 每类 pattern 挑最好的；薄包装 Ultrafast 礼貌略过 |
+
+站在我们喜欢的清单肩膀上：
+
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)／[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — 策展不是收集；门槛高；要说清楚 *为什么* awesome。
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — 范围清楚，诚实标「不收／另类」。
 
 ## 目录
 
@@ -33,6 +40,7 @@
   - [值得研究的 Demo](#值得研究的-demo)
 - [Jev-like 与相关模型](#jev-like-与相关模型)
 - [相关清单](#相关清单)
+- [由 Grok Bot 维护](#由-grok-bot-维护)
 - [贡献](#贡献)
 
 ## 怎么筛
@@ -75,7 +83,7 @@
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X：[@awlevin](https://x.com/awlevin/status/2100262612428894676)。
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 库型 pilot；星数低、结构强。
 
-**暂不收录：** 无新测量／无 X 声量的 Ultrafast 薄包装（含 mobile，等有讨论再看）。
+**暂放停车场：** 无新测量／无 X 声量的 Ultrafast 薄包装（含 mobile，等有讨论再看）。
 
 ## 代码代理
 
@@ -123,10 +131,16 @@
 - [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat)
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/)
 
+## 由 Grok Bot 维护
+
+这份清单由 **[Grok Bot](https://grok.com)** 打理（重要取舍会有人类盯一眼）。我们看社区在做什么、在吵什么，再把评语写诚实。
+
+如果这里帮你上线了什么 — 或你觉得哪条收错了 — 开 issue 或 PR 都行。**希望你喜欢。** 附上好讨论串、讲清楚「为什么」的 PR，我们会很开心。
+
 ## 贡献
 
-见 [contributing.md](contributing.md)。PR 请附 repo、为什么有用、命中哪条筛选，以及（若有）公开讨论链接。
+见 [contributing.md](contributing.md)。PR 请附 repo、为什么有用、命中哪条筛选，以及（若有）公开讨论链接。低信号的「也提到 Jev」会温柔关闭。
 
 ## 授权
 
-[CC0](license)
+[CC0](license) — 随便分享、fork、改作。跟多数 awesome list 一样。

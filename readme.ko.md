@@ -2,18 +2,26 @@
 
 **언어:** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md)
 
-> [Jev](https://typesafe.ai)(TypeSafe AI System One: 신뢰도 있는 typed 결정) 엄선 목록. 공개 논의 열기가 있으면 **Jev-like** 모델/복제본도 포함.
+> [Jev](https://typesafe.ai)(TypeSafe System One: 신뢰도 있는 typed 결정)를 짧게, 의견 있게 안내합니다. 타임라인이 진짜 뜨거운 **Jev-like** 모델도 포함.
+
+조용한 clone 400개짜리 거대 디렉터리, 지겹죠? 우리도요. 목록은 짧게 두고, 항목마다 **노트**(왜 중요한지·누구용인지·주의점)를 달며, **커뮤니티 조사**(측정 루프, X 런치, 사람들이 인용하는 패턴)에 기대요. 다음 주에 바로 훔쳐 쓸  Dist을 찾으면 좋겠어요.
 
 ## 이 목록의 차별점
 
-대형 디렉터리는 **범위**([awesomejev.com](https://awesomejev.com/) 등). 여기는 **판단**.
+대형 디렉터리는 **범위**([awesomejev.com](https://awesomejev.com/) 등). 여기는 **취향**.
 
 | 흔한 방식 | 여기 |
 | --- | --- |
-| 수백 개 스크랩 | 한 번에 읽을 짧은 목록 |
-| 마케팅 한 줄 | **편집 노트**(왜 중요한지·주의점) |
-| 스타 순위 | **커뮤니티 조사**(측정 루프, X 런치 등) |
-| TypeSafe API만 | X/HN 실용 관심이 있는 **Jev-like**도(비공식 표기) |
+| 수백 개 스크랩 | 커피 한 잔에 끝나는 짧은 목록 |
+| 마케팅 한 줄 | **편집 노트** — 왜 중요한지·주의점·누구용 |
+| 스타 순위 | **커뮤니티 조사** — 측정 루프, X 런치 등 |
+| TypeSafe API만 | 열기 있는 **Jev-like**도(비공식 표기) |
+| 모든 fork 평등 | 패턴별 베스트; 얇은 Ultrafast 래퍼는 패스 |
+
+좋아하는 목록의 어깨 위에서:
+
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)／[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — 수집이 아니라 큐레이션.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — 범위가 뚜렷하고 ‘여기엔 안 넣음’이 솔직함.
 
 ## 목차
 
@@ -32,9 +40,12 @@
   - [연구할 만한 데모](#연구할-만한-데모)
 - [Jev-like & 관련 모델](#jev-like--관련-모델)
 - [관련 목록](#관련-목록)
+- [Grok Bot이 유지보수](#grok-bot이-유지보수)
 - [기여](#기여)
 
 ## 선정 기준
+
+두 트랙. 둘 다 까다롭게.
 
 ### 직접 Jev/TypeSafe
 
@@ -74,7 +85,7 @@
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev. X: [@awlevin](https://x.com/awlevin/status/2100262612428894676).
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 라이브러리형 pilot. 스타 낮고 구조는 탄탄.
 
-**일단 제외:** 새 측정/X 없는 Ultrafast 얇은 래퍼(모바일 포함).
+**주차장:** 새 측정/X 없는 Ultrafast 얇은 래퍼(모바일 포함).
 
 ## 코딩 에이전트
 
@@ -116,10 +127,16 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단.
 
 - [awesomejev.com](https://awesomejev.com/) · [yibie/awesome-jev](https://github.com/yibie/awesome-jev) · [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) · [Flavio Copes](https://flaviocopes.com/jev/)
 
+## Grok Bot이 유지보수
+
+이 목록은 **[Grok Bot](https://grok.com)** 이 돌봅니다(중요한 선택은 사람이 한 번 봐요). 커뮤니티가 만들고 이야기하는 걸 보고, 노트를 솔직하게 유지해요.
+
+도움이 됐거나 의견이 다르면 issue나 PR 주세요. **마음에 들면 좋겠어요.** 좋은 스레드와 명확한 ‘왜’가 있는 PR은 환영합니다.
+
 ## 기여
 
-[contributing.md](contributing.md) 참고. PR에 repo, 유용한 이유, 선정 기준, (있으면) 공개 스레드를 적어 주세요.
+[contributing.md](contributing.md) 참고. repo, 유용한 이유, 선정 기준, (있으면) 공개 스레드를 적어 주세요.
 
 ## 라이선스
 
-[CC0](license)
+[CC0](license) — 공유·fork·개작 자유. 다른 awesome list와 같은 정신입니다.
