@@ -24,18 +24,23 @@ Borrowed from lists we admire (and adapted):
 
 ## Contents
 
-- [How we curate](#how-we-curate)
-- [Observations](#observations)
-- [Official](#official)
-- [Platforms](#platforms)
-- [Browser & computer use](#browser--computer-use)
-- [Coding agents](#coding-agents)
-- [Routers](#routers)
-- [Data & libraries](#data--libraries)
-- [Demos worth studying](#demos-worth-studying)
+- [What makes this list different](#what-makes-this-list-different)
+- [Curation](#how-we-curate)
+  - [How we curate](#how-we-curate)
+  - [Observations](#observations)
+- [Official & platforms](#official)
+  - [Official](#official)
+  - [Platforms](#platforms)
+- [Integrations](#browser--computer-use)
+  - [Browser & computer use](#browser--computer-use)
+  - [Coding agents](#coding-agents)
+  - [Routers](#routers)
+  - [Data & libraries](#data--libraries)
+  - [Demos worth studying](#demos-worth-studying)
 - [Jev-like & related models](#jev-like--related-models)
 - [Related lists](#related-lists)
 - [Contributing](#contributing)
+
 
 ## How we curate
 
