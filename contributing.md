@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thanks for helping keep this list small and useful.
+Thanks for helping keep this list small and useful. Our differentiator is **editorial notes + community research**, not coverage.
 
 ## What belongs here
 
@@ -19,17 +19,26 @@ Your entry should meet **at least two** of:
 
 ## PR format
 
-1. Add the entry in the right section, alphabetically within the section when practical.
-2. Format: `- [name](url) - Description ends with a period.`
-3. In the PR body, answer:
+1. One suggestion per pull request.
+2. Add the entry in the right section (bottom of the section is fine).
+3. Format: `- [name](url) - Description ends with a period.`
+4. In the PR body, answer:
    - Why is this useful or high-potential?
    - Which curation criteria does it hit?
-   - Link to discussion or measurements (optional but strongly preferred).
-4. Keep grammar clean; no trailing spaces; descriptions in English.
+   - Link to discussion or measurements (strongly preferred).
+   - If similar to an existing entry: how is it better?
+5. Update **English** [readme.md](readme.md) first, then mirror structure/entries in [readme.zh-TW.md](readme.zh-TW.md) and [readme.zh-CN.md](readme.zh-CN.md) (or note that translation follow-up is needed).
+6. Keep grammar clean; no trailing spaces; English descriptions in `readme.md` (translations carry the same facts, not marketing fluff).
 
 ## Editorial notes
 
-Maintainers may rewrite descriptions into short **observations** (why it matters, caveats). Stars alone are not enough.
+Maintainers may rewrite descriptions into short **observations** (why it matters, caveats). Stars alone are not enough. We may also add a “Skipped for now” note instead of merging a weak entry — that is intentional.
+
+## Lessons we steal from other lists
+
+- High bar, not “niche by default” ([awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)).
+- Clear scope and honest out-of-scope buckets ([awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)).
+- Language switcher + English as merge source of truth ([standard-readme](https://github.com/RichardLitt/standard-readme) i18n practice).
 
 ## Creating an entry for sindresorhus/awesome
 

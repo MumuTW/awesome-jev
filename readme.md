@@ -1,8 +1,25 @@
 # Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+**Languages:** [English](readme.md) · [正體中文](readme.zh-TW.md) · [简体中文](readme.zh-CN.md)
+
 > Curated, high-signal projects built on [Jev](https://typesafe.ai) — TypeSafe AI's System One model for typed decisions (choice, score, boolean with confidence).
 
-This is **not** a scrape of every repo that mentions Jev. Mega-directories already cover breadth ([awesomejev.com](https://awesomejev.com/), [yibie/awesome-jev](https://github.com/yibie/awesome-jev), [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)). Here we keep a short list of things that are **useful today**, **architecturally instructive**, or **clearly gaining discussion** (especially on X), and we say *why*.
+## What makes this list different
+
+Mega-directories already cover **breadth** ([awesomejev.com](https://awesomejev.com/), [yibie/awesome-jev](https://github.com/yibie/awesome-jev), [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)). We cover **judgment**.
+
+| Others often do | We do |
+| --- | --- |
+| Scrape / mirror hundreds of repos | Keep a short list you can finish in one sitting |
+| One-line marketing blurbs | **Editorial notes** — why it matters, caveats, who it is for |
+| Stars as the ranking signal | **Community research** — measured loops, launch threads (especially X), patterns people actually quote |
+| Treat every fork as equal | Prefer best-in-class per pattern; skip thin Ultrafast wrappers |
+
+Borrowed from lists we admire (and adapted):
+
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) / [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) — curation over collection; high bar; say *why* something is awesome.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) — sharp scope, honest “not here” buckets (our [Open replicas](#open-replicas-not-jev) / “Skipped for now”).
+- Multilingual READMEs ([standard-readme](https://github.com/RichardLitt/standard-readme), cheat-sheet style) — English is canonical for OSS discovery; 正體／简体 are first-class mirrors.
 
 ## Contents
 
@@ -28,6 +45,8 @@ Keep an entry when **at least two** of these are true:
 3. Public discussion beyond a quiet README (launch threads, cost/latency numbers, forks that cite it).
 
 Drop: dump directories, unused renames, clones without a decision-loop idea, and “inspired by” projects that never call Jev (those go under [Open replicas](#open-replicas-not-jev) only if they teach something).
+
+If your project is similar to one already listed, argue in the PR **how it is better** — same rule as mature awesome lists.
 
 ## Observations
 
@@ -108,6 +127,8 @@ Use these when you want coverage over curation:
 ## Contributing
 
 See [contributing.md](contributing.md). Open a PR with: repo URL, one-sentence why it is useful, which criterion it hits, and (if any) a public thread with discussion. Low-signal “also mentions Jev” PRs will be closed.
+
+Translations: keep [readme.zh-TW.md](readme.zh-TW.md) / [readme.zh-CN.md](readme.zh-CN.md) in sync when you change structure or entries; English `readme.md` is the source of truth for merges.
 
 ## License
 
