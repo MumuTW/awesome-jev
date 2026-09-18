@@ -118,6 +118,8 @@ TypeSafe 未使用可。**議論の熱と学習価値**で判断。
 
 ## 貢献
 
+[contributing.md](contributing.md) を参照。PR には repo・有用な理由・選定基準・（あれば）公開スレッドを。
+
 ## ライセンス
 
 [CC0](license)

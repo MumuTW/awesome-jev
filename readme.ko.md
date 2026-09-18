@@ -118,6 +118,8 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단.
 
 ## 기여
 
+[contributing.md](contributing.md) 참고. PR에 repo, 유용한 이유, 선정 기준, (있으면) 공개 스레드를 적어 주세요.
+
 ## 라이선스
 
 [CC0](license)
