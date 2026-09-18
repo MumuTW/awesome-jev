@@ -100,6 +100,13 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단.
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - 오픈 semantic if. 예: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010).
 - [jevlike](https://github.com/vinnylarouge/jevlike) - 원패스 선택 확률. X 희소 + HN ~161 pts.
+- [nimble](https://github.com/bespokelabsai/nimble) - 오픈 Jev 레시피(LoRA＋constrained serving). 비공식. X: [@madiator](https://x.com/madiator/status/2100990591215783946); HN.
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only Jev 호환 API(SGLang). 비공식. HN.
+- [open-jev](https://github.com/daseinlabs/open-jev) - 로컬 Gemma/MLX option scoring. 비공식. HN.
+- [mini-jev](https://github.com/r-ms/mini-jev) - Qwen3 letter-logits 소실험. 비공식. HN.
+- [jevmlx](https://github.com/bnsd55/jevmlx) - Apple Silicon MLX 병렬 결정. 비공식. X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN.
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - 병렬 constrained/다중 필드(HF). 비공식. 강한 X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015).
+- [LitJev](https://github.com/zhengxuyu/LitJev) - 임의 LLM을 Jev-like `/v1/systemone`으로. 비공식. X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337).
 
 ## 관련 목록
 

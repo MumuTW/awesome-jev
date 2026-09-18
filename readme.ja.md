@@ -100,6 +100,13 @@ TypeSafe 未使用可。**議論の熱と学習価値**で判断。
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - オープンな semantic if。例: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)。
 - [jevlike](https://github.com/vinnylarouge/jevlike) - 一パス選択肢確率。X 疎 + HN ~161 pts。
+- [nimble](https://github.com/bespokelabsai/nimble) - オープンな Jev レシピ（LoRA＋constrained serving）。非公式。X: [@madiator](https://x.com/madiator/status/2100990591215783946); HN も。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only の Jev 互換 API（SGLang）。非公式。HN。
+- [open-jev](https://github.com/daseinlabs/open-jev) - ローカル Gemma/MLX option scoring。非公式。HN。
+- [mini-jev](https://github.com/r-ms/mini-jev) - Qwen3 letter-logits の小実験。非公式。HN。
+- [jevmlx](https://github.com/bnsd55/jevmlx) - Apple Silicon MLX 並列決定。非公式。X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - 並列 constrained／多フィールド（HF）。非公式。強い X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
+- [LitJev](https://github.com/zhengxuyu/LitJev) - 任意 LLM を Jev-like `/v1/systemone` に。非公式。X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
 
 ## 関連リスト
 

@@ -114,6 +114,13 @@ Independent projects and **related / inspired models** that explore System One�
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - “Semantic ifs” from open models on a home 3090. Explicitly independent. Sparse X (e.g. [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)); keep as inspired-by reference.
 - [jevlike](https://github.com/vinnylarouge/jevlike) - Train a small model for one-pass option probabilities (Doom / chess / Wikispeedia). Sparse X + HN traction (~161 pts); keep as inspired-by / open-replica study.
+- [nimble](https://github.com/bespokelabsai/nimble) - Open “Jev recipe” (LoRA + constrained serving). Not affiliated. X: [@madiator](https://x.com/madiator/status/2100990591215783946); also on HN.
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only Jev-compatible API on SGLang. Not affiliated. Discussed on HN.
+- [open-jev](https://github.com/daseinlabs/open-jev) - Local Gemma/MLX option scoring. Not affiliated. HN discussion.
+- [mini-jev](https://github.com/r-ms/mini-jev) - Small Qwen3 letter-logits experiment toward System One–style choices. Not affiliated. HN.
+- [jevmlx](https://github.com/bnsd55/jevmlx) - Parallel decisions on Apple Silicon via MLX. Not affiliated. X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN.
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - Parallel constrained / multi-field decisions (HF model). Not affiliated. Strong X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015).
+- [LitJev](https://github.com/zhengxuyu/LitJev) - Wrap an arbitrary LLM into a Jev-like `/v1/systemone` surface. Not affiliated. X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337).
 
 More entries welcome when X (or HN) shows sustained practical interest — open a PR with the thread.
 

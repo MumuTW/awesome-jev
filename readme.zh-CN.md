@@ -102,6 +102,13 @@
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - 开源「语义 if」。X 稀疏（如 [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)）；标 inspired-by。
 - [jevlike](https://github.com/vinnylarouge/jevlike) - 小模型一次通过选项概率；X 稀疏 + HN ~161 pts。
+- [nimble](https://github.com/bespokelabsai/nimble) - 开源「Jev 配方」（LoRA＋constrained serving）。非官方。X：[@madiator](https://x.com/madiator/status/2100990591215783946)；亦上 HN。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) - Prefill-only、兼容 Jev 形状的 API（SGLang）。非官方。HN 有讨论。
+- [open-jev](https://github.com/daseinlabs/open-jev) - 本地 Gemma／MLX option scoring。非官方。HN。
+- [mini-jev](https://github.com/r-ms/mini-jev) - Qwen3 letter-logits 小实验。非官方。HN。
+- [jevmlx](https://github.com/bnsd55/jevmlx) - Apple Silicon MLX 并行决策。非官方。X：[@beni_il_](https://x.com/beni_il_/status/2100617387116568956)；HN。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) - 并行 constrained／多字段（HF 模型）。非官方。强 X：[@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
+- [LitJev](https://github.com/zhengxuyu/LitJev) - 任意 LLM 包成类 Jev `/v1/systemone`。非官方。X：[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
 
 有更多 X／HN 持续讨论时欢迎 PR。
 
