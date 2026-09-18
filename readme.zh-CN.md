@@ -38,7 +38,6 @@
 
 ## 怎么筛
 
-GitHub 条目旁的星数是 [Shields.io](https://shields.io) 徽章（打开页面时大致更新，不必每天 commit）。Hugging Face likes 用动态徽章。若要在文字里写死「★ 4972」这种数字，再请 agent 每日更新。
 
 ### 直接使用 Jev／TypeSafe
 

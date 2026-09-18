@@ -44,7 +44,6 @@ Borrowed from lists we admire (and adapted):
 
 ## How we curate
 
-Star counts next to GitHub entries are [Shields.io](https://shields.io) badges (refresh when the page is viewed; not a daily commit). Hugging Face likes use a dynamic badge. For pinned snapshot numbers in prose, run a daily update agent instead.
 
 ### Direct Jev / TypeSafe
 

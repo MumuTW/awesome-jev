@@ -37,7 +37,6 @@
 
 ## 선정 기준
 
-GitHub 항목 옆 스타는 [Shields.io](https://shields.io) 배지(페이지를 열 때 대략 갱신, 매일 commit 불필요). HF likes는 동적 배지. 본문에 고정 「★ 4972」가 필요하면 일일 agent로.
 
 ### 직접 Jev/TypeSafe
 

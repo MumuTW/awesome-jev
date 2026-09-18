@@ -37,7 +37,6 @@
 
 ## 選定基準
 
-GitHub 条目の星は [Shields.io](https://shields.io) バッジ（ページ表示時におおよそ更新。毎日の commit は不要）。HF likes は動的バッジ。本文に固定の「★ 4972」が必要なら日次 agent を。
 
 ### 直接 Jev／TypeSafe
 
