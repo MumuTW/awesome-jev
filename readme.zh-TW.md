@@ -64,72 +64,72 @@
 
 ## 官方
 
-- [TypeSafe](https://typesafe.ai) - 產品首頁與 early-access console。
-- [System One 文件](https://docs.typesafe.ai) - 適合／不適合什麼。
-- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 官方 TS／JS client。
-- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 官方 Python client。
-- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - LLM 後端的 drop-in client，方便 A/B。
-- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - 官方 agent skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
-- [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare 模型條目。
+- [TypeSafe](https://typesafe.ai) - 母艦：產品首頁、early-access console，也是最乾淨感受「Jev 在賣什麼」的地方。若你還在評估 System One 能不能進自家 stack，先來這裡——比較像「能不能動手試」，不是文件大雜燴。提醒：early access 仍代表有些門開得比社群 demo 慢。
+- [System One 文件](https://docs.typesafe.ai) - 對「Jev 擅長什麼」寫得最利的答案：原子型別問題可以，長篇 System-2 散文不行。我們收它，是因為每個好的整合都在默默對齊這套心智模型。適合架構師在燒 API 額度前先把 prompt 與 schema 想清楚。
+- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 官方 TypeScript／JavaScript client（`@typesafe-ai/sdk`）——若你的應用已在 Node 或瀏覽器，這是阻力最小的入場口。收錄理由很務實：從「有趣論文」走到正式環境裡的 typed Choice／Score／Boolean。別急著手寫 fetch，除非你熱愛重新踩 auth 邊角。
+- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 同一套 System One 介面的官方 Python client。最適合資料／ML 人把 Jev 放進 notebook 與 agent 旁，不必假裝一定要寫 TypeScript。薄但可信——當它是受祝福的正式 client，不是研究草稿。
+- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - 用一般 chat LLM 當後端的 drop-in `TypeSafeClient`，好做 A／B 與離線對照，不用乾等真模型。挑給「先要公平 baseline 再決定要不要砸錢」的團隊。Caveat：這是替身，不是免費 Jev——評估筆記裡請大聲標清楚。
+- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - 官方 agent skills，對準 System One API——「先把對的廚具拿出來再開火」那一包。收錄是因為 [@typesafeai](https://x.com/typesafeai/status/2100376436272173088) 把它框成認真建造者該怎麼起步。給想要慣例、不要又一個空白 repo 的 agent 作者。
+- [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare AI 平台上的託管模型條目；若你的 runtime 本來就是 Workers 形狀，值得收藏。在意邊緣同地部署勝過自己養 client stack 時很實用。比較像「真的有上架」的收據，不是教學文。
 
 ## 平台
 
-- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - 經 AI SDK 7 `evaluate` 呼叫；見 [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)。
-- [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - 原生 Choice／Score／Boolean。
+- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - 透過 AI SDK 7 `evaluate` 呼叫 `typesafe-ai/jev`，不用乾等私人 waitlist——隔夜就改寫「誰能動手試」的入場路徑。我們把它放高，是因為 [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175) 把存取權變成產品故事，不是腳註。Next.js／AI SDK 商店首選；只是 Gateway 配額終究還是配額。
+- [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - 原生 Choice／Score／Boolean 路徑，看起來就像 System One 的答案已經住進你的應用程式碼。選作 Gateway 條目的人體工學雙胞胎——同一套心智模型、更少膠水檔。實驗性名稱很誠實：API 仍可能在你腳下移動。
 
 ## 瀏覽器與電腦操作
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - 旗艦迴圈；Flights ~7s／~$0.0039。X：[@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X：[@awlevin](https://x.com/awlevin/status/2100262612428894676)。
-- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 函式庫型 pilot；星數低、結構強。
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use 旗艦迴圈，也仍是網路上最清楚的「為什麼需要 Jev」示範：DOM → 索引化操作／目標 → 一輪 Jev，小 LLM 只負責打字。Zürich→London Flights（約 7 秒、約 $0.0039）加上 [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)，讓延遲敘事比任何星數圖走得更遠。Action space 有限且可觀測就偷這套架構；若你的 agent 還在「隨便做」，先別裝。
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS 電腦操作：OCR + Jev，作者表上的成本數字（約 $0.0002／步）讓人坐直。收錄是因為 [@awlevin](https://x.com/awlevin/status/2100262612428894676) 把桌面自動化講成可量測的 System One 故事，不是氣氛片。Mac 原生建造者首選；OCR 雜訊是你跳過完美無障礙樹時要付的稅。
+- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 函式庫型 pilot（surface、perception、policy、verify、safety、traces），給要自己設計迴圈、不想硬 fork Ultrafast 的人。星數安靜，結構不安靜——這正是收它的理由。想要可抽換接縫就選它；今晚只想看到能飛的機票 demo，先看 Ultrafast。
 
 **暫放停車場：** 無新量測／無 X 聲量的 Ultrafast 薄包裝（含 mobile，等有討論再看）。
 
 ## 程式碼代理
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction；高星／趨勢強，即使沒有廣為引用的 launch 帖。
-- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 軟體工廠監督。X：[@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
-- [jev-review（devagrawal09）](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 分階段 review；見 roundup [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
-- [jev-review（NiazMorshed2007）](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP-first 時再優先。
-- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Pi 決策層。
-- [pi-warden](https://github.com/DevMortimer/pi-warden) ![GitHub stars](https://img.shields.io/github/stars/DevMortimer/pi-warden?style=flat) - Pi 護欄。
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code plugin：Jev 替 tool call／結果打分，保留的上下文維持原文——compaction 是閘門，不是會發明內容的摘要器。高星、趨勢強，即使沒有廣為引用的 launch 帖；我們在「觀察」也點名它。給被 tool 噪音淹死的 Claude Code 重度使用者；若任務需要一長串無聊但必要的尾巴，小心刪太狠。
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 軟體工廠監督，讓 Jev 審判每個步驟——比較像「這階段真的過了嗎？」，不是「幫我寫 PR」。我們喜歡 [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717) 丟進時間軸的 Codex 監督視角。給多 agent 工廠建造者；若你只要單一 review bot，這偏重。
+- [jev-review（devagrawal09）](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 分階段 review 加本地 dashboard——社群最愛的「把閘門攤開給我看」形狀。出現在 [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556) 這類 roundup，熱度對 review 工具來說夠了。想要人眼可見的階段就選它；比一次 MCP 呼叫重。
+- [jev-review（NiazMorshed2007）](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - 本地優先的 MCP `jev_review`，給 stack 已經是 MCP 形狀的人。若 Claude／Cursor 工具是你的正門，優先這位兄弟；X 訊號弱於分階段那位，沒關係。Caveat：MCP 爽感優先，dashboard 拋光其次。
+- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Pi 的決策層：tool-call 閘門加上 `jev_ask`，讓 agent 先問再動手。收作乾淨的「System One 當權限」pattern，綁在特定 agent runtime。給想要型別化否決權的 Pi 使用者；它本身不是通用 coding agent。
+- [pi-warden](https://github.com/DevMortimer/pi-warden) ![GitHub stars](https://img.shields.io/github/stars/DevMortimer/pi-warden?style=flat) - Pi 護欄，擋不可逆工具、迴圈與假「完成」，由 Jev 導航。跟 pi-jev 很合拍，當你在意安全表演要變成真檢查時。最適合曾被「太早說做完」的 agent 燙過的人。
 
 ## 路由器
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最常被引用的 router；X 弱於瀏覽器 demo，仍因實用而收錄。
-- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 語意路由。
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 給 Claude Code 與 Codex 的每回合 cheap／strong 路由——仍是這生態系最常被引用的 router pattern。X 熱度淡於瀏覽器 demo，但實用性夠我們留它。當你以為簡單的回合開始被「便宜」模型搞砸時，盯緊成本回彈。
+- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 的語意 HTTP 路由：Jev 選路，handler 保持無聊。小而乾淨，證明 System One 不只是 coding agent 玩具。給 Hono／邊緣 API 人；靜態 path 表已夠用就別硬加。
 
 ## 資料與函式庫
 
-- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 擴充；X 弱、niche 實用強故仍收錄。
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - PostgreSQL 擴充，用白話問表，答案走 Jev——少見的「決策模型住在資料旁邊」角度。X 安靜，niche 實用很大聲，對我們夠了。給 SQL 原生團隊；別拿它當完整分析倉儲故事的替代品。
 
 ## 值得研究的 Demo
 
-- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad block 交易決策。X：[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 結構化狀態玩 Mario。
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - 每個 Monad block 對 Kuru MON-USDC 做一次買／賣決策——熱迴圈加校準過的 choice，不是「感覺看多」的聊天機器人。[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) 讓這模板傳開。偷它的節奏；別當投資建議，也別當正式交易台。
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 用結構化模擬器狀態玩 Mario——玩具表面，認真教訓：能餵觀測狀態就別硬餵像素。我們留它是為了教 action-space 衛生。好玩第一；上線第二（或永遠不上）。
 
 ## Jev-like 與相關模型
 
-可不呼叫 TypeSafe；收錄看**討論熱度與研究價值**。
+可不呼叫 TypeSafe；收錄看**討論熱度與研究價值**。它們**非官方、非附屬**。
 
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - 開源「語意 if」。X 稀疏（如 [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)）；標 inspired-by。
-- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 小模型一次通過選項機率；X 稀疏 + HN ~161 pts。
-- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - 開源「Jev 配方」（LoRA＋constrained serving）。非官方。X：[@madiator](https://x.com/madiator/status/2100990591215783946)；亦上 HN。
-- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only、相容 Jev 形狀的 API（SGLang）。非官方。HN 有討論。
-- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - 本機 Gemma／MLX option scoring。非官方。HN。
-- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits 小實驗。非官方。HN。
-- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - Apple Silicon MLX 平行決策。非官方。X：[@beni_il_](https://x.com/beni_il_/status/2100617387116568956)；HN。
-- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 平行 constrained／多字段（HF 模型）。非官方。強 X：[@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
-- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 任意 LLM 包成類 Jev `/v1/systemone`。非官方。X：[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - 家裡 3090 上用開源模型做的「語意 if」——明確獨立，與 TypeSafe **無附屬關係**。X 稀疏（如 [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)），但對想在本機玩條件式的人夠當 inspired-by 參考。給 DIY GPU 玩家；預期研究毛邊，不是拋光 SaaS 雙胞胎。
+- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 訓練小模型一次通過輸出選項機率（Doom／chess／Wikispeedia）。獨立／inspired-by 教材，X 稀疏但 HN 約 161 分有感。想親自感受 System One 形狀輸出怎麼被學出來就看它；**非** Jev 替身，也**非**附屬。
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - 開源「Jev 配方」（LoRA＋constrained serving）——**非** TypeSafe 附屬；配方本身就是產品。[@madiator](https://x.com/madiator/status/2100990591215783946) 與 HN 都給了熱度。給想自己煮 System One 味模型的團隊；請自備 ML ops 耐心。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - SGLang 上的 prefill-only、Jev 形狀相容 API——獨立，**非**附屬。HN 討論是門票：serving 形狀跟權重一樣重要。給已住在 SGLang 的 infra 人；把「相容」讀成「形狀像」，不是「官方」。
+- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - 本機 Gemma／MLX option scoring。與 TypeSafe **無附屬關係**；因 HN 好奇與筆電友善實驗而上榜。給 Apple／本機探索者；分數當教材，別當正式校準。
+- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - 用 Qwen3 letter-logits 朝 System One 風格選擇的小實驗。獨立、**非**附屬；HN 是它坐在這裡的理由。給拿 stick 戳 logits 的研究者——可愛，不是產品。
+- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - 透過 MLX 在 Apple Silicon 上做平行決策。**非**附屬；熱度來自 [@beni_il_](https://x.com/beni_il_/status/2100617387116568956) 與 HN。Mac MLX 原生、想追平行 Choice 形呼叫的人首選；評估架請自備。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 平行 constrained／多字段決策的 HF 模型——獨立，**非** TypeSafe。[@harshagundal](https://x.com/harshagundal/status/2100044305536889015) 的強 X 換到席位。給想下載一顆腦、不要 API key 的人；信任多字段輸出前先驗證約束。
+- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 把任意 LLM 包成類 Jev 的 `/v1/systemone` 表面。**非**附屬；[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337) 把 adapter pattern 放到地圖上。協議實驗很方便；記住包裝紙不會魔法變成 System One 品質。
 
 有更多 X／HN 持續討論時歡迎 PR。
 
 ## 相關清單
 
-- [awesomejev.com](https://awesomejev.com/)
-- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat)
-- [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat)
-- [Flavio Copes — deep dive](https://flaviocopes.com/jev/)
+- [awesomejev.com](https://awesomejev.com/) - 大型自動刷新目錄（repos、sites、threads），專門補我們刻意拒絕的廣度。用它掃街發現，回這裡做品味判斷。好搭檔，但別拿它當品味的替代品。
+- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - 社群版 Jev awesome list——網更寬、編輯聲比較輕。我們當它是同儕雷達，一起盯社群在長什麼。安靜條目請交叉核對評語再採用。
+- [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - 更廣的 TypeSafe＋System One＋Jev 資源，不只「有打 API 的 app」。給要畫整片地景、而不是只挑旗艦 demo 的人。預期連結密度高於辛辣短評。
+- [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - 長文解釋 SDK、Gateway 與 `evaluate`——你丟給不想開十五個分頁的同事的那一篇。溫暖、務實、帶一點好的主見。最適合 onboarding，不是活目錄。
 
 ## 由 Grok Bot 維護
 

@@ -66,66 +66,70 @@
 
 ## 公式
 
-- [TypeSafe](https://typesafe.ai) - 製品ホームと early access。
-- [System One docs](https://docs.typesafe.ai) - 向き／不向き。
-- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 公式 TS／JS。
-- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 公式 Python。
-- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - LLM バックエンドの drop-in。
-- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - 公式 skills（[@typesafeai](https://x.com/typesafeai/status/2100376436272173088)）。
-- [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare 掲載。
+- [TypeSafe](https://typesafe.ai) - 本拠地：製品ホームと early-access console。Jev が何を売っているかをいちばん綺麗に体感できる場所です。System One が自社スタックに合うか測るならここから——ドキュメントの山より「触れるか」。注意：early access は、コミュニティのデモより扉が遅いこともまだあります。
+- [System One docs](https://docs.typesafe.ai) - 「Jev は何が得意か」へのいちばん鋭い文章。原子的な型付き質問は○、長い System-2 散文は×。良い統合はみな、静かにこの心的モデルを映しています。API クレジットを燃やす前に prompt／schema を設計する人向け。
+- [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-js?style=flat) - 公式 TypeScript／JavaScript クライアント（`@typesafe-ai/sdk`）。Node やブラウザに既にいるなら最短の入口。『面白い論文』から本番の typed Choice／Score／Boolean へ運ぶための道として選びました。auth の角を再発見したいとき以外、自前 fetch はおすすめしません。
+- [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat) - 同じ System One 面の公式 Python クライアント。ノートブックやエージェントの隣に Jev を置きたいデータ／ML 勢に最適で、TypeScript 必須とは言いません。薄いけれど信頼できる——研究スケッチではなく、公式クライアントとして扱ってください。
+- [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/system-one-adapter-python?style=flat) - 通常の chat LLM を背後にした drop-in `TypeSafeClient`。本番モデル待ちなしで A／B やオフライン比較ができます。支出を決める前に公平な baseline が欲しいチーム向け。注意：これは代役であり無料の Jev ではない——評価メモに大きく書いて。
+- [skills](https://github.com/typesafe-ai/skills) ![GitHub stars](https://img.shields.io/github/stars/typesafe-ai/skills?style=flat) - System One API 向け公式 agent skills。「正しい道具を出してから火を入れる」パック。[@typesafeai](https://x.com/typesafeai/status/2100376436272173088) が本気のビルダーの始め方として枠づけたので収録。空のリポより慣習が欲しいエージェント作者向け。
+- [Cloudflare Workers AI — typesafe/jev](https://developers.cloudflare.com/ai/models/typesafe/jev/) - Cloudflare の AI プラットフォーム上のホスト済みモデル掲載。ランタイムがすでに Workers 形ならブックマーク価値あり。クライアントスタック所有よりエッジ同居を気にするときに。教程というより「本当にここにある」という領収書。
 
 ## プラットフォーム
 
-- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - AI SDK 7 `evaluate`。[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)。
-- [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - Choice／Score／Boolean。
+- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - AI SDK 7 の `evaluate` で `typesafe-ai/jev` を呼べる。プライベート waitlist 待ちなし——誰が試せるかを一晩で変えた入口。[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175) がアクセスを脚注ではなく製品の物語にしたので上位に置いています。Next.js／AI SDK 屋さん向け；Gateway の枠は枠のままです。
+- [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - ネイティブな Choice／Score／Boolean。System One の答えがアプリコードに住んでいるように見える道。Gateway 項目の人間工学の双子として選定——同じ心的モデル、グルーファイルは少なめ。experimental の名は正直：API はまだ足元で動きます。
 
 ## ブラウザ＆コンピュータ操作
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - 旗艦ループ。Flights ~7s／~$0.0039。X: [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)。
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS OCR + Jev。X: [@awlevin](https://x.com/awlevin/status/2100262612428894676)。
-- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - ライブラリ型 pilot。Star 低・構造は強い。
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use の旗艦ループで、いまもネット上いちばん明快な「なぜ Jev か」デモ。DOM → 索引化された操作／ターゲット → Jev 一往復、小さな LLM は入力だけ。Zürich→London Flights（約 7s／約 $0.0039）と [@gregpr07](https://x.com/gregpr07/status/2100411066966749359) が遅延の物語を Star 表より遠くへ運びました。有限で観測可能な action space ならこの設計を盗んで；まだ「何でもやれ」エージェントなら見送り。
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS の computer-use：OCR + Jev。著者表のコスト（約 $0.0002／step）で人が背筋を伸ばした一本。[@awlevin](https://x.com/awlevin/status/2100262612428894676) がデスクトップ自動化を雰囲気動画ではなく測定可能な System One の話にしたので収録。Mac ネイティブ向け；完璧なアクセシビリティツリーを飛ばす税が OCR ノイズです。
+- [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - ライブラリ型 pilot（surface／perception／policy／verify／safety／traces）。Ultrafast をフォークせず自分のループを設計する人向け。Star は静か、構造は静かではない——だからここにある。差し替え可能な継ぎ目が欲しいとき向き；今夜フライト demo が動けばいいなら先に Ultrafast。
 
 **駐車場:** 新測定も X も無い Ultrafast 薄ラッパ（mobile 含む）。
 
 ## コーディングエージェント
 
-- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code compaction。高 Star／トレンドで収録。
-- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - ファクトリ監督。X: [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)。
-- [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 段階 review。[@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556)。
-- [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - MCP 優先時。
-- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) / [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi 向けゲート／ガード。
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code プラグイン。Jev が tool call／結果を採点し、残す文脈は原文のまま——compaction はゲートであり、創作する要約器ではない。広く引用された launch がなくても高 Star／強トレンドなので「観察」でも名指し。tool ノイズに溺れる Claude Code ヘビーユーザー向け；退屈でも必要な長い尻尾を落とさないよう注意。
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - ソフトウェア工場の監督。Jev が各段階を裁く——「PR を書いて」より「このステージは本当に通ったか」。[@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717) の Codex 監督アングルが好きで収録。マルチエージェント工場向け；単発の review ボットだけなら重い。
+- [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 段階的 review とローカル dashboard。コミュニティが好む「ゲートを見せて」形。[@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556) などの roundup 引用で十分な熱。人の目に見える段階が欲しいとき向き；一発 MCP より重い。
+- [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - ローカル優先の MCP `jev_review`。スタックがすでに MCP 形ならこちら。Claude／Cursor ツールが正面玄関ならこの兄弟を；X は段階 review より弱いがそれでよい。注意：MCP の快感が先、dashboard の磨きは後。
+- [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Pi 向け意思決定層。tool-call ゲートと `jev_ask` で、動く前に聞く。特定ランタイム内のきれいな「System One＝許可」パターンとして選定。型付き拒否権が欲しい Pi ユーザー向け；単体の汎用コーディングエージェントではない。
+- [pi-warden](https://github.com/DevMortimer/pi-warden) ![GitHub stars](https://img.shields.io/github/stars/DevMortimer/pi-warden?style=flat) - 不可逆ツール・ループ・偽の「完了」を防ぐ Pi ガードレール。Jev が舵取り。安全の見世物を本物のチェックにしたいとき pi-jev と相性良し。「早すぎる完了」に焼かれた運用者向け。
 
 ## ルータ
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - 最も引用されるルータ。X は弱めでも実用で収録。
-- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 意味ルータ。
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - Claude Code／Codex のターンごと cheap／strong ルーティング。いまも最頻引用のルータパターン。X はブラウザ demo より静かでも、実用で残す。簡単なつもりだったターンが安いモデルに崩されたらコスト回帰に注意。
+- [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono の意味的 HTTP ルーティング。Jev がルートを選び、ハンドラは退屈なまま。System One がコーディングエージェント専用玩具ではないことの小さな証明。Hono／エッジ API 向け；静的 path 表で足りるなら過剰。
 
 ## データ＆ライブラリ
 
-- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - Postgres 拡張。X 弱・ニッチ実用で収録。
+- [pg-jev](https://github.com/realZachi/pg-jev) ![GitHub stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat) - PostgreSQL 拡張。自然言語で表に聞き、答えは Jev——珍しい「意思決定モデルがデータの隣に住む」角度。X は静か、ニッチ実用は大声で、それで十分。SQL ネイティブ向け；分析ウェアハウス物語の代替にはしないで。
 
 ## 研究価値のあるデモ
 
-- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad ブロック取引。X: [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)。
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 構造化状態の Mario。
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad ブロックごとに Kuru MON-USDC の売買を一回——熱いループと校正された choice。「強気っぽい」チャットボットではない。[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) が型を運んだ。リズムを盗んで；投資助言や本番デスクにはしないで。
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 構造化されたエミュレータ状態から Mario。おもちゃの表面に本気の教訓：できるなら画素ではなく観測状態を食え。action-space の衛生教育用に残しています。楽しさ第一；本番は第二（または永遠に来ない）。
 
 ## Jev-like と関連モデル
 
-TypeSafe 未使用可。**議論の熱と学習価値**で判断。
+TypeSafe 未使用可。**議論の熱と学習価値**で判断。いずれも**非公式・非提携**。
 
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - オープンな semantic if。例: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)。
-- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 一パス選択肢確率。X 疎 + HN ~161 pts。
-- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - オープンな Jev レシピ（LoRA＋constrained serving）。非公式。X: [@madiator](https://x.com/madiator/status/2100990591215783946); HN も。
-- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only の Jev 互換 API（SGLang）。非公式。HN。
-- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - ローカル Gemma/MLX option scoring。非公式。HN。
-- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits の小実験。非公式。HN。
-- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - Apple Silicon MLX 並列決定。非公式。X: [@beni_il_](https://x.com/beni_il_/status/2100617387116568956); HN。
-- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 並列 constrained／多フィールド（HF）。非公式。強い X: [@harshagundal](https://x.com/harshagundal/status/2100044305536889015)。
-- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 任意 LLM を Jev-like `/v1/systemone` に。非公式。X: [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337)。
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - 自宅 3090 上のオープンモデルによる「semantic if」。明示的に独立、TypeSafe とは**無関係**。X は疎（例: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)）でも、ローカル条件分岐を弄りたい人への inspired-by には足りる。DIY GPU 向け；研究の角は残る、磨かれた SaaS 双子ではない。
+- [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 小モデルを一パス選択肢確率向けに学習（Doom／chess／Wikispeedia）。独立／inspired-by の教材。X 疎＋HN 約 161 pts。System One 形の出力がどう学ばれるかを感じたい人に；**Jev の代替ではなく、提携でもない**。
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - オープンな「Jev レシピ」（LoRA＋constrained serving）。TypeSafe **非提携**；レシピ自体が製品。[@madiator](https://x.com/madiator/status/2100990591215783946) と HN が熱をくれた。自前で System One 味を煮たいチーム向け；ML ops の忍耐を持参。
+- [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - SGLang 上の prefill-only、Jev 互換形 API。独立・**非提携**。HN 議論が入場券：serving 形は重みと同じくらい大事。「互換」は「形が似ている」であり「公式」ではない。SGLang 住民の infra 向け。
+- [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - ローカル Gemma／MLX の option scoring。TypeSafe **非提携**；HN の好奇心とノート PC 実験向きで掲載。Apple／ローカル探索者向け；スコアは教材、本番校正ではない。
+- [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits の小さな実験。独立・**非提携**；HN が席の理由。logits を突く研究者向け——愛らしいが製品ではない。
+- [jevmlx](https://github.com/bnsd55/jevmlx) ![GitHub stars](https://img.shields.io/github/stars/bnsd55/jevmlx?style=flat) - Apple Silicon 上 MLX による並列決定。**非提携**；[@beni_il_](https://x.com/beni_il_/status/2100617387116568956) と HN の熱。並列 Choice 形を追う Mac MLX ネイティブ向け；評価ハーネスは自前で。
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD) ![HF likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fharshatheg%2FQwen-2.5-1B-RLCD&query=%24.likes&label=HF%20likes&style=flat) - 並列 constrained／多フィールド決定の HF モデル。独立・TypeSafe **非提携**。[@harshagundal](https://x.com/harshagundal/status/2100044305536889015) の強い X が席を取った。API キーよりダウンロード脳が欲しい人向け；多フィールド出力は制約を検証してから信じて。
+- [LitJev](https://github.com/zhengxuyu/LitJev) ![GitHub stars](https://img.shields.io/github/stars/zhengxuyu/LitJev?style=flat) - 任意 LLM を Jev-like の `/v1/systemone` 面に包む。**非提携**；[@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337) がアダプタパターンを地図に載せた。プロトコル実験に便利；ラッパは魔法で System One 品質にはならない。
 
 ## 関連リスト
 
-- [awesomejev.com](https://awesomejev.com/) · [yibie/awesome-jev](https://github.com/yibie/awesome-jev) · [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) · [Flavio Copes](https://flaviocopes.com/jev/)
+- [awesomejev.com](https://awesomejev.com/) - 自動更新の大きなディレクトリ（repos／sites／threads）。こちらがわざと拒む網羅が欲しいときに。発見はそこで、判断はここに戻って。良い相棒だが、センスの代用品ではない。
+- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - コミュニティの Jev awesome list。網は広く、編集の声はこちらより軽い。同輩レーダーとして好き。静かな項目はノートを交差確認してから。
+- [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - TypeSafe＋System One＋Jev をもっと広く。API を呼ぶアプリ以外も含む風景図向け。辛口短評よりリンク密度が高い想定。
+- [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - SDK・Gateway・`evaluate` の長文解説。タブを十五枚開きたくない同僚に渡す一枚。温かく実務的で、良い意味で少し意見がある。オンボーディング向き；生きたカタログではない。
 
 ## Grok Bot がメンテ
 
