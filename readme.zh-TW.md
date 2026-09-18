@@ -125,6 +125,8 @@
 
 ## 貢獻
 
+見 [contributing.md](contributing.md)。PR 請附 repo、為什麼有用、命中哪條篩選，以及（若有）公開討論連結。
+
 ## 授權
 
 [CC0](license)
