@@ -40,9 +40,7 @@ Borrowed from lists we admire (and adapted):
 - [Related lists](#related-lists)
 - [Contributing](#contributing)
 
-
 ## How we curate
-
 
 ### Direct Jev / TypeSafe
 
@@ -63,7 +61,7 @@ Drop: dump directories, unused renames, thin Ultrafast clones, and name collisio
 - **Jev wins when the action space is finite and observed.** Projects that moved the needle on X ([Browser Use flights](https://x.com/gregpr07/status/2100411066966749359), [Mac computer-use cost](https://x.com/awlevin/status/2100262612428894676)) turn the world into an indexed table, then ask one parallel pass. Free-form “do whatever” agents are the wrong fit.
 - **Small LLM only for text generation.** Ultrafast and computer-use keep a text model for typing. That split is the recurring architecture.
 - **Coding-agent use is about gates, not authorship.** Compaction, review, tool allow/deny, and model routing are natural System One jobs.
-- **Latency narratives travel farther than star counts.** Prefer measured loops. **Star ≠ X:** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) stayed keep for trend/usefulness even without a found launch thread.
+- **Latency narratives travel farther than star counts.** Prefer measured loops. [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) is listed for trend and usefulness even without a widely cited launch thread.
 - **Access path matters.** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) (`typesafe-ai/jev`) changed who could experiment overnight ([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
 - **Jev-like heat is a signal, not affiliation.** SemIf / jevlike teach open alternatives; X/HN chatter is why they sit here — always label independent.
 
@@ -141,7 +139,6 @@ Use these when you want coverage over curation:
 ## Contributing
 
 See [contributing.md](contributing.md). PR: repo URL, why it is useful, which criterion it hits, and a public thread when possible.
-
 
 ## License
 

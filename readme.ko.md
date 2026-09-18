@@ -34,9 +34,7 @@
 - [관련 목록](#관련-목록)
 - [기여](#기여)
 
-
 ## 선정 기준
-
 
 ### 직접 Jev/TypeSafe
 
@@ -51,7 +49,7 @@
 - **유한·관측 가능한 action space에서 Jev가 강함.** X: [Browser Use](https://x.com/gregpr07/status/2100411066966749359), [computer-use](https://x.com/awlevin/status/2100262612428894676).
 - **작은 LLM은 텍스트 생성만.**
 - **코딩 용도는 게이트(compaction/review/routing), 작성 아님.**
-- **지연 서사 > 스타.** **Star ≠ X:** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)은 런치 글이 없어도 keep.
+- **지연 서사 > 스타.** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)은 널리 인용된 런치 글이 없어도 수록할 만하다.
 - **진입점:** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
 - **Jev-like 열기는 신호이지 소속이 아님.**
 
@@ -119,7 +117,6 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단.
 - [awesomejev.com](https://awesomejev.com/) · [yibie/awesome-jev](https://github.com/yibie/awesome-jev) · [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) · [Flavio Copes](https://flaviocopes.com/jev/)
 
 ## 기여
-
 
 ## 라이선스
 

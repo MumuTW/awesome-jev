@@ -34,9 +34,7 @@
 - [関連リスト](#関連リスト)
 - [貢献](#貢献)
 
-
 ## 選定基準
-
 
 ### 直接 Jev／TypeSafe
 
@@ -51,7 +49,7 @@
 - **有限で観測可能な action space のとき Jev が強い。** X: [Browser Use](https://x.com/gregpr07/status/2100411066966749359)、[computer-use](https://x.com/awlevin/status/2100262612428894676)。
 - **小さな LLM はテキスト生成のみ。**
 - **コーディング用途はゲート（compaction／review／routing）、執筆ではない。**
-- **遅延の物語 > Star。** **Star ≠ X:** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) は launch 投稿が見つからなくても keep。
+- **遅延の物語 > Star。** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) は広く引用された launch 投稿がなくても収録する価値がある。
 - **入口:** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)（[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)）。
 - **Jev-like の熱はシグナルであり所属ではない。**
 
@@ -119,8 +117,6 @@ TypeSafe 未使用可。**議論の熱と学習価値**で判断。
 - [awesomejev.com](https://awesomejev.com/) · [yibie/awesome-jev](https://github.com/yibie/awesome-jev) · [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) · [Flavio Copes](https://flaviocopes.com/jev/)
 
 ## 貢献
-
-[contributing.md](contributing.md)。マージの正本は英語 `readme.md`。
 
 ## ライセンス
 

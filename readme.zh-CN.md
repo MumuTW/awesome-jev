@@ -35,9 +35,7 @@
 - [相关清单](#相关清单)
 - [贡献](#贡献)
 
-
 ## 怎么筛
-
 
 ### 直接使用 Jev／TypeSafe
 
@@ -52,7 +50,7 @@
 - **Action space 有限且可观测时 Jev 才赢。** X 上打出声量的：[Browser Use 机票](https://x.com/gregpr07/status/2100411066966749359)、[Mac computer-use 成本](https://x.com/awlevin/status/2100262612428894676)。
 - **小 LLM 只负责产文字。**
 - **Coding 用法在闸门，不在写作。**
-- **延迟叙事 > 星数。** **Star ≠ X：** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) 没找到 launch 帖仍 keep。
+- **延迟叙事 > 星数。** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) 即使没有广为引用的 launch 帖也值得看。
 - **入场路径：** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)（[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)）。
 - **Jev-like 热度是信号，不是归属。**
 
@@ -126,8 +124,6 @@
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/)
 
 ## 贡献
-
-见 [contributing.md](contributing.md)。合并以英文 `readme.md` 为准。
 
 ## 授权
 
