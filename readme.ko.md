@@ -4,7 +4,7 @@
 
 > [Jev](https://typesafe.ai)를 빠르게 파악 — TypeSafe가 타입드 결정(choice·score·신뢰도 있는 boolean)용으로 벼린 「System One」 모델, 그리고 커뮤니티가 뜨거울 때 볼 만한 동류 모델.
 
-조용한 clone 400개짜리 거대 디렉터리, 지겹죠? 우리도요. 목록은 짧게 두고, 항목마다 **노트**(왜 중요한지·누구용인지·주의점)를 달며, **커뮤니티 조사**(측정 루프, X 런치, 사람들이 인용하는 패턴)에 기대요. 다음 주에 바로 훔쳐 쓸 무언가를 찾으면 좋겠어요.
+조용한 clone 400개짜리 거대 디렉터리, 지겹죠? 우리도요. 목록은 짧게 두고, 항목마다 **노트**(왜 중요한지·누구용인지·주의점)를 달며, **커뮤니티 조사**(측정 루프, X 런치, 사람들이 인용하는 패턴)에 기대요. 다음 주에 바로 가져가 쓸 무언가를 찾으면 좋겠어요.
 
 ## 이 목록의 차별점
 
@@ -38,7 +38,7 @@
   - [라우터](#라우터)
   - [데이터 & 라이브러리](#데이터--라이브러리)
   - [연구할 만한 데모](#연구할-만한-데모)
-- [유스케이스 & 개념 (관찰 중)](#유스케이스--개념-관찰-중)
+- [유스케이스 & 개념](#유스케이스--개념)
 - [Jev-like & 관련 모델](#jev-like--관련-모델)
 - [관련 목록](#관련-목록)
 - [Grok Bot이 유지보수](#grok-bot이-유지보수)
@@ -63,7 +63,7 @@
 - **코딩 용도는 게이트(compaction/review/routing), 작성 아님.**
 - **지연 서사 > 스타.** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)은 널리 인용된 런치 글이 없어도 수록할 만하다.
 - **진입점:** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
-- **고논의지만 납품 가능한 repo가 약한 개념도 가치가 있다.** [유스케이스 & 개념 (관찰 중)](#유스케이스--개념-관찰-중)에 둔다——pattern을 이해시키는 스레드/에세이지, fork 대상이 아니다. 검증 약한 바이럴 flex는 넣지 않거나 한 줄 주의만.
+- **고논의지만 납품 가능한 repo가 약한 개념도 가치가 있다.** [유스케이스 & 개념](#유스케이스--개념)에 둔다——System One pattern을 보여주는 토론 스레드와 에세이. 검증 약한 바이럴 flex는 넣지 않거나 한 줄 주의만.
 - **Jev-like 열기는 신호이지 소속이 아님.**
 
 ## 공식
@@ -78,21 +78,21 @@
 
 ## 플랫폼
 
-- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - AI SDK 7 `evaluate`로 `typesafe-ai/jev` 호출. 비공개 waitlist 대기 없이 — 누가 실험할 수 있는지를 하룻밤 바꾼 진입로. [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)가 접근을 각주가 아니라 제품 이야기로 만들어 위에 둡니다. Next.js/AI SDK 숍용; Gateway 쿼터는 여전히 쿼터.
+- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - AI SDK 7 `evaluate`로 `typesafe-ai/jev` 호출. 비공개 waitlist 대기 없이 — 누가 실험할 수 있는지를 하룻밤 바꾼 진입로. [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)가 접근을 각주가 아니라 제품 이야기로 만들었기에 위에 둡니다. Next.js/AI SDK 숍용; Gateway 쿼터는 여전히 쿼터.
 - [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - 네이티브 Choice/Score/Boolean. System One 답이 앱 코드에 이미 사는 것처럼 보이는 길. Gateway 항목의 인체공학 쌍둥이로 선정 — 같은 멘탈 모델, 글루 파일은 적게. experimental 이름은 솔직함: API는 아직 발밑에서 움직입니다.
 
 ## 브라우저 & 컴퓨터 사용
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use 플래그십 루프이자, 여전히 인터넷에서 가장 선명한 「왜 Jev인가」 데모. DOM → 인덱싱된 ops/targets → Jev 한 왕복, 작은 LLM은 타이핑만. Zürich→London Flights(~7s/~$0.0039)와 [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)가 지연 서사를 스타 차트보다 멀리 보냈어요. 유한·관측 가능한 action space면 이 설계를 훔치세요; 아직 「뭐든 해」 에이전트면 패스.
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS computer-use: OCR + Jev. 저자 표의 비용(~$0.0002/step)에 사람들이 허리를 편 글. [@awlevin](https://x.com/awlevin/status/2100262612428894676)이 데스크톱 자동화를 분위기 영상이 아니라 측정 가능한 System One 이야기로 만들어 수록. Mac 네이티브용; 완벽한 접근성 트리를 건너뛴 세금이 OCR 노이즈입니다.
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use 플래그십 루프이자, 여전히 인터넷에서 가장 선명한 「왜 Jev인가」 데모. DOM → 인덱싱된 ops/targets → Jev 한 왕복, 작은 LLM은 타이핑만. Zürich→London Flights(~7s/~$0.0039)와 [@gregpr07](https://x.com/gregpr07/status/2100411066966749359)가 지연 서사를 스타 차트보다 멀리 보냈어요. 유한·관측 가능한 action space면 이 설계에서 배우세요; 아직 「뭐든 해」 에이전트면 패스.
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS computer-use: OCR + Jev. 저자 표의 비용(~$0.0002/step)에 사람들이 허리를 편 글. 볼 만합니다——[@awlevin](https://x.com/awlevin/status/2100262612428894676)이 데스크톱 자동화를 분위기 영상이 아니라 측정 가능한 System One 이야기로 만들었기 때문. Mac 네이티브용; 완벽한 접근성 트리를 건너뛴 세금이 OCR 노이즈입니다.
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - 라이브러리형 pilot(surface·perception·policy·verify·safety·traces). Ultrafast를 포크하지 않고 루프를 설계하는 사람용. 스타는 조용하고 구조는 안 조용함 — 그래서 여기 있어요. 갈아끼울 이음매가 필요하면 선택; 오늘 밤 항공권 데모만 되면 Ultrafast 먼저.
 
-**주차장:** 새 측정/X 없는 Ultrafast 얇은 래퍼(모바일 포함).
+**아직 미수록:** 새 측정/X 없는 Ultrafast 얇은 래퍼(모바일 포함).
 
 ## 코딩 에이전트
 
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code 플러그인. Jev가 tool call/결과를 채점하고 남긴 컨텍스트는 원문 유지 — compaction은 게이트이지, 지어내는 요약기가 아님. 널리 인용된 런치가 없어도 고스타/강세 트렌드라 「관찰」에서도 이름 부름. tool 소음에 빠진 Claude Code 헤비 유저용; 지루해도 필요한 긴 꼬리를 너무 세게 자르지 마세요.
-- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 소프트웨어 팩토리 감독. Jev가 단계마다 심판 — 「PR 써 줘」보다 「이 스테이지 진짜 통과했나」. [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)의 Codex 감독 각도가 좋아 수록. 멀티 에이전트 팩토리용; 단일 review 봇만 필요하면 과함.
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - 소프트웨어 팩토리 감독. Jev가 단계마다 심판 — 「PR 써 줘」보다 「이 스테이지 진짜 통과했나」. [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717)의 Codex 감독 각도가 강해 수록. 멀티 에이전트 팩토리용; 단일 review 봇만 필요하면 과함.
 - [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - 단계적 review + 로컬 dashboard. 커뮤니티가 좋아하는 「게이트를 보여 줘」 형태. [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556) 같은 roundup 인용으로 열기 충분. 사람 눈에 보이는 단계가 필요하면; 한 방 MCP보다 무겁습니다.
 - [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - 로컬 우선 MCP `jev_review`. 스택이 이미 MCP 형태면 이쪽. Claude/Cursor 도구가 정문이면 이 형제; X는 단계 review보다 약해도 괜찮아요. 주의: MCP 쾌감이 먼저, dashboard 광택은 나중.
 - [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Pi용 결정 레이어. tool-call 게이트 + `jev_ask`로 움직이기 전에 묻게 함. 특정 런타임 안의 깔끔한 「System One = 허가」 패턴으로 선정. 타입드 거부권이 필요한 Pi 사용자용; 단독 범용 코딩 에이전트는 아님.
@@ -100,7 +100,7 @@
 
 ## 라우터
 
-- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - Claude Code/Codex용 턴마다 cheap/strong 라우팅. 여전히 가장 많이 인용되는 라우터 패턴. X는 브라우저 데모보다 조용해도 실용으로 남김. 「쉬운」 턴이 싼 모델에 무너지면 비용 회귀를 보세요.
+- [jev-router](https://github.com/gargpratyush/jev-router) ![GitHub stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat) - Claude Code/Codex용 턴마다 cheap/strong 라우팅. 여전히 가장 많이 인용되는 라우터 패턴. X는 브라우저 데모보다 조용해도 실용성 때문에 수록. 「쉬운」 턴이 싼 모델에 무너지면 비용 회귀를 보세요.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![GitHub stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat) - Hono 의미론적 HTTP 라우팅. Jev가 경로를 고르고 핸들러는 지루하게. System One이 코딩 에이전트 장난감만이 아님을 보여 주는 작은 증명. Hono/엣지 API용; 정적 path 표로 충분하면 과함.
 
 ## 데이터 & 라이브러리
@@ -109,12 +109,12 @@
 
 ## 연구할 만한 데모
 
-- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad 블록마다 Kuru MON-USDC 매수/매도 한 번 — 뜨거운 루프 + 보정된 choice. 「강세 느낌」 챗봇이 아님. [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)가 템플릿을 실어 날림. 리듬을 훔치세요; 투자 조언·프로덕션 데스크로는 쓰지 마세요.
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 구조화된 에뮬레이터 상태로 Mario. 장난감 표면에 진지한 교훈: 가능하면 픽셀이 아니라 관측 상태를 먹이세요. action-space 위생 교육용으로 남김. 재미가 1순위; 프로덕션은 2순위(또는 영원히 없음).
+- [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad 블록마다 Kuru MON-USDC 매수/매도 한 번 — 뜨거운 루프 + 보정된 choice. 「강세 느낌」 챗봇이 아님. [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)가 템플릿을 실어 날림. 리듬을 배우세요; 투자 조언·프로덕션 데스크로는 쓰지 마세요.
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 구조화된 에뮬레이터 상태로 Mario. 장난감 표면에 진지한 교훈: 가능하면 픽셀이 아니라 관측 상태를 먹이세요. action-space 위생 교육을 위해 수록. 재미가 1순위; 프로덕션은 2순위(또는 영원히 없음).
 
-## 유스케이스 & 개념 (관찰 중)
+## 유스케이스 & 개념
 
-**정식 항목이 아님.** 논의가 뜨거운 **유스케이스/개념** 쇼케이스——System One pattern을 눌러 볼 수 있는 스레드와 글. 아이디어만 훔치면 된다; 별도 표기가 없으면 다듬어진 repo를 기대하지 말 것. 탄탄한 공개 산출물이 생기면 위 분류로 승격할 수 있다.
+System One pattern을 보여주는 토론 스레드와 에세이를 모았습니다. 많은 항목이 demo나 장문이며, 다듬어진 공개 repo가 없을 수 있습니다(별도 표기가 없으면). 탄탄한 오픈 산출물이 생기면 위 주 분류로 옮길 수 있습니다.
 
 ### 프레이밍
 
@@ -131,12 +131,12 @@
 
 ### 실시간/멀티에이전트 개념
 
-- [Minecraft: Jev가 반응, Astra가 계획](https://x.com/wuyang_zhou/status/2100727660875808913) - 라이브 부하에서 빠른 System One+느린 System Two. 공개 repo 미확인; 역할 경계를 훔치고 클립을 설계도로 쓰지 말 것.
+- [Minecraft: Jev가 반응, Astra가 계획](https://x.com/wuyang_zhou/status/2100727660875808913) - 라이브 부하에서 빠른 System One+느린 System Two. 공개 repo 미확인; 역할 경계에서 배우고 클립을 설계도로 쓰지 말 것.
 - [감정 셀룰러 오토마타](https://x.com/riku720720/status/2100738087584481657) - 여러 agent가 병렬로 Jev로 상태 갱신——드문 다체 개념(또 하나의 싱글 플레이 bot이 아님). 좋아요는 낮고 새로움은 높음.
 
 ### 유포 중 (주의)
 
-뜨겁지만 깨끗한 납품물이 없음——레이더이지 레시피가 아님:
+열기는 있지만 깨끗한 공개 납품물이 아직 없는 demo——방향 맞추기에는 유용하고, 그대로 베껴 쓸 출발점은 아님:
 
 - [「한 시간 만에 Tesla FSD 재구축」](https://x.com/jpschroeder/status/2100347770867458384) - 극단 루프 서사; 재현 전까지 마케팅으로 취급.
 - [Subway Surfers+50 병렬](https://x.com/_MaxBlade/status/2100634359099232678) - 병렬 결정 비용 서사; demo만.
@@ -150,8 +150,8 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단. 모두 **
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - 집 3090에서 오픈 모델로 만든 「semantic if」. 명시적으로 독립, TypeSafe와 **무관**. X는 희소(예: [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010))해도 로컬 조건문을 만지고 싶은 사람에게 inspired-by로 충분. DIY GPU용; 연구 모서리는 남고, 닦인 SaaS 쌍둥이는 아님.
 - [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - 원패스 선택 확률용 소모델 학습(Doom/chess/Wikispeedia). 독립/inspired-by 교재. X 희소 + HN ~161 pts. System One 형태 출력이 어떻게 학습되는지 느끼고 싶을 때; **Jev 대체재도, 제휴도 아님**.
-- [laya](https://github.com/NandhaKishorM/laya) ![GitHub stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat) - 로컬로 돌릴 수 있는 오픈 System One 풍 의사결정 모델([HF](https://huggingface.co/convaiinnovations/laya), PyPI `laya`)——**TypeSafe 비제휴**. 납품 가능한 스택과 **selective gating**(불확실하면 기권/상위로)이 흥미롭다. 저자 공개의 Jev 대비 차트는 레이더로만——**같은 벤치가 아님**: Jev 수치는 frontier 일치에, Laya는 in-task 自评에 기대는 편——「Jev를 이겼다」로 읽지 말 것. 오픈 대안을 시험할 사람용; 방법론 주의는 필수.
-- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - 오픈 「Jev 레시피」(LoRA＋constrained serving). TypeSafe **비제휴**; 레시피 자체가 제품. [@madiator](https://x.com/madiator/status/2100990591215783946)와 HN이 열기를 줌. System One 맛을 직접 끓이려는 팀용; ML ops 인내를 가져오세요.
+- [laya](https://github.com/NandhaKishorM/laya) ![GitHub stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat) - 로컬로 돌릴 수 있는 오픈 System One 풍 의사결정 모델([HF](https://huggingface.co/convaiinnovations/laya), PyPI `laya`)——**TypeSafe 비제휴**. 납품 가능한 스택과 **selective gating**(불확실하면 기권/상위로)이 흥미롭다. 저자 공개의 Jev 대비 차트는 레이더로만——**같은 벤치가 아님**: Jev 수치는 frontier 일치에, Laya는 in-task 自评에 기대는 편——「Jev를 이겼다」로 읽지 말 것. 오픈 대안을 시험할 사람용; 방법론 차이는 반드시 유념하세요.
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - 오픈 「Jev 레시피」(LoRA＋constrained serving). TypeSafe **비제휴**; 레시피 자체가 제품이라 여기 있습니다. [@madiator](https://x.com/madiator/status/2100990591215783946)와 HN이 열기를 줌. System One 맛을 직접 끓이려는 팀용; ML ops 인내를 가져오세요.
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - SGLang 위 prefill-only Jev 호환형 API. 독립·**비제휴**. HN 논의가 입장권: serving 형태는 가중치만큼 중요. 「호환」은 「모양이 비슷」이지 「공식」이 아님. SGLang 주민 infra용.
 - [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - 로컬 Gemma/MLX option scoring. TypeSafe **비제휴**; HN 호기심과 노트북 실험용으로 수록. Apple/로컬 탐험가용; 점수는 교재, 프로덕션 보정이 아님.
 - [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Qwen3 letter-logits 소실험. 독립·**비제휴**; HN이 자리 이유. logits를 찌르는 연구자용 — 귀엽지만 제품 아님.
@@ -162,7 +162,7 @@ TypeSafe 미사용 가능. **논의 열기·학습 가치**로 판단. 모두 **
 ## 관련 목록
 
 - [awesomejev.com](https://awesomejev.com/) - 자동 새로고침 대형 디렉터리(repos·sites·threads). 우리가 일부러 거절하는 범위가 필요할 때. 발견은 거기서, 결정은 여기로. 좋은 동반자이지 취향의 대체재는 아님.
-- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - 커뮤니티 Jev awesome list. 그물은 넓고 편집 목소리는 우리보다 가벼움. 동료 레이더로 좋아함. 조용한 항목은 노트를 교차 확인하세요.
+- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - 커뮤니티 Jev awesome list. 그물은 넓고 편집 목소리는 우리보다 가벼움. 동료 레이더로 유용함. 조용한 항목은 노트를 교차 확인하세요.
 - [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - TypeSafe+System One+Jev를 더 넓게. API 호출 앱 너머 지형도용. 매운 한 줄보다 링크 밀도가 높을 예상.
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - SDK·Gateway·`evaluate` 장문 해설. 탭 열다섯 개 싫다는 동료에게 건네는 한 장. 따뜻하고 실무적이며, 좋은 의미로 조금 의견 있음. 온보딩용; 살아있는 카탈로그는 아님.
 

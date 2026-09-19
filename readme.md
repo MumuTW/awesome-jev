@@ -4,7 +4,7 @@
 
 > Get Jev fast — TypeSafe’s sharp “System One” model for typed decisions (choice, score, boolean with confidence) — plus kindred models worth watching when the community is buzzing.
 
-Tired of mega-directories with 400 quiet clones? Same. This list stays small, ships **notes** (why it matters, who it's for, what to watch), and leans on **community research** — measured loops, launch threads on X, patterns people keep quoting. Hope you find something worth stealing for your next build.
+Tired of mega-directories with 400 quiet clones? Same. This list stays small, ships **notes** (why it matters, who it's for, what to watch), and leans on **community research** — measured loops, launch threads on X, patterns people keep quoting. Hope you find something you can take into your next build.
 
 ## What makes this list different
 
@@ -38,7 +38,7 @@ Standing on the shoulders of lists we like:
   - [Routers](#routers)
   - [Data & libraries](#data--libraries)
   - [Demos worth studying](#demos-worth-studying)
-- [Use cases & concepts (watching)](#use-cases--concepts-watching)
+- [Use cases & concepts](#use-cases--concepts)
 - [Jev-like & related models](#jev-like--related-models)
 - [Related lists](#related-lists)
 - [Maintained by Grok Bot](#maintained-by-grok-bot)
@@ -53,7 +53,7 @@ Two tracks. Be picky on both.
 In when **at least two** are true:
 
 1. Real TypeSafe / Jev API usage (or official docs / SDK), not a name collision.
-2. You could ship or steal a pattern from it this week (cost, latency, action space, routing, review).
+2. You could ship or reuse a pattern from it this week (cost, latency, action space, routing, review).
 3. Public discussion beyond a quiet README (launch threads, cost/latency numbers, forks that cite it).
 
 ### Jev-like / related models (may not call Jev)
@@ -69,7 +69,7 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 - **Coding-agent use is about gates, not authorship.** Compaction, review, tool allow/deny, and model routing are natural System One jobs.
 - **Latency narratives travel farther than star counts.** Prefer measured loops. [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) is listed for trend and usefulness even without a widely cited launch thread.
 - **Access path matters.** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) (`typesafe-ai/jev`) changed who could experiment overnight ([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
-- **High-heat concepts without a shippable repo still matter.** They land in [Use cases & concepts (watching)](#use-cases--concepts-watching) — X threads and essays that teach a pattern, not a fork target. Viral flex with weak verification stays out or gets a one-line caveat.
+- **High-heat concepts without a shippable repo still matter.** They live in [Use cases & concepts](#use-cases--concepts) — discussion threads and essays that illustrate a System One pattern. Viral flex with weak verification stays out or gets a one-line caveat.
 - **Jev-like heat is a signal, not affiliation.** SemIf / jevlike teach open alternatives; X/HN chatter is why they sit here — always label independent.
 
 ## Official
@@ -84,21 +84,21 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 
 ## Platforms
 
-- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - Call `typesafe-ai/jev` through AI SDK 7 `evaluate` without waiting on a private waitlist — the overnight on-ramp that actually changed who could experiment. We keep it high because [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175) turned access into a product story, not a footnote. Perfect for Next.js / AI SDK shops; just remember Gateway quotas are still quotas.
+- [Jev on Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - Call `typesafe-ai/jev` through AI SDK 7 `evaluate` without waiting on a private waitlist — the overnight on-ramp that actually changed who could experiment. It ranks high because [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175) turned access into a product story, not a footnote. Perfect for Next.js / AI SDK shops; just remember Gateway quotas are still quotas.
 - [AI SDK `experimental_evaluate`](https://sdk.vercel.ai) - Native Choice / Score / Boolean path that looks like System One answers already live in your application code. Selected as the ergonomic twin of the Gateway entry — same mental model, fewer glue files. Experimental name is honest: APIs can still move under you.
 
 ## Browser & computer use
 
-- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use’s flagship loop and still the clearest “why Jev” demo on the internet: DOM → indexed ops/targets → one Jev round trip, with a small LLM only for typing. Zürich→London Flights (~7s, ~$0.0039) plus [@gregpr07](https://x.com/gregpr07/status/2100411066966749359) made the latency story travel farther than any star chart. Steal this architecture if you have a finite, observed action space; ignore it if your agent is still “do whatever.”
-- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS computer-use via OCR + Jev, with a cost table that made people sit up (~$0.0002/step in the author’s numbers). Listed because [@awlevin](https://x.com/awlevin/status/2100262612428894676) turned desktop automation into a measured System One story, not a vibes reel. Best for Mac-native builders; OCR noise is the tax you pay for skipping a perfect accessibility tree.
+- [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ![GitHub stars](https://img.shields.io/github/stars/browser-use/jev-ultrafast?style=flat) - Browser Use’s flagship loop and still the clearest “why Jev” demo on the internet: DOM → indexed ops/targets → one Jev round trip, with a small LLM only for typing. Zürich→London Flights (~7s, ~$0.0039) plus [@gregpr07](https://x.com/gregpr07/status/2100411066966749359) made the latency story travel farther than any star chart. Reuse this architecture if you have a finite, observed action space; skip it if your agent is still “do whatever.”
+- [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ![GitHub stars](https://img.shields.io/github/stars/awlevin/typesafe-computer-use?style=flat) - macOS computer-use via OCR + Jev, with a cost table that made people sit up (~$0.0002/step in the author’s numbers). Worth a look because [@awlevin](https://x.com/awlevin/status/2100262612428894676) turned desktop automation into a measured System One story, not a vibes reel. Best for Mac-native builders; OCR noise is the tax you pay for skipping a perfect accessibility tree.
 - [jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) ![GitHub stars](https://img.shields.io/github/stars/aidil2105/jev-browser-pilot?style=flat) - Library-shaped pilot (surface, perception, policy, verify, safety, traces) for people designing their own loop instead of forking Ultrafast. Stars are quiet; the structure is not — that is exactly why it is here. Prefer when you want seams you can swap; skip if you just need a working flights demo tonight.
 
-**Parking lot:** thin browser wrappers of Ultrafast with no new measurement or X traction (including mobile ports — ping us when the thread heats up).
+**Not listed yet:** thin browser wrappers of Ultrafast with no new measurement or X traction (including mobile ports — ping us when the thread heats up).
 
 ## Coding agents
 
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ![GitHub stars](https://img.shields.io/github/stars/tamaratran/fast-jev-compaction?style=flat) - Claude Code plugin where Jev scores tool calls/results and kept context stays verbatim — compaction as a gate, not a summarizer that invents. High stars and strong trend even without a widely cited launch thread, which is why our Observations call it out. For Claude Code power users drowning in tool noise; watch for over-aggressive drops if your tasks need long tails of boring context.
-- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - Software-factory supervision with Jev judging steps — less “write my PR,” more “did this stage actually pass?” We like the Codex-supervision angle [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717) put into the feed. Aimed at multi-agent factory builders; overkill if you only need a single review bot.
+- [foreman](https://github.com/thruwire/foreman) ![GitHub stars](https://img.shields.io/github/stars/thruwire/foreman?style=flat) - Software-factory supervision with Jev judging steps — less “write my PR,” more “did this stage actually pass?” Strong Codex-supervision angle from [@JoshARosen](https://x.com/JoshARosen/status/2100573432089866717). Aimed at multi-agent factory builders; overkill if you only need a single review bot.
 - [jev-review (devagrawal09)](https://github.com/devagrawal09/jev-review) ![GitHub stars](https://img.shields.io/github/stars/devagrawal09/jev-review?style=flat) - Staged review plus a local dashboard — the community’s favorite “show me the gates” review shape. Cited in roundups such as [@0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556), which is enough heat for a review tool. Great when you want human-visible stages; heavier than a one-shot MCP call.
 - [jev-review (NiazMorshed2007)](https://github.com/NiazMorshed2007/jev-review) ![GitHub stars](https://img.shields.io/github/stars/NiazMorshed2007/jev-review?style=flat) - Local-first MCP `jev_review` when your stack is already MCP-shaped. Prefer this sibling if Claude/Cursor tools are your front door; less X signal than the staged-review cousin, and that is fine. Caveat: MCP-first joy, dashboard-second polish.
 - [pi-jev](https://github.com/y0usaf/pi-jev) ![GitHub stars](https://img.shields.io/github/stars/y0usaf/pi-jev?style=flat) - Decision layer for Pi: tool-call gate plus `jev_ask` so the agent asks before it acts. Selected as a clean “System One as permissioning” pattern inside a specific agent runtime. For Pi users who want typed vetoes; not a general coding agent on its own.
@@ -116,12 +116,12 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 ## Demos worth studying
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - One buy/sell decision per Monad block on Kuru MON-USDC — a hot loop with a calibrated choice, not a chatbot that “feels bullish.” [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) made the template travel. Study the pacing; do not treat it as financial advice or a production trading desk.
-- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - Mario driven from structured emulator state — a toy surface with a serious lesson: feed observed state, not raw pixels, when you can. We keep it for teaching action-space hygiene. Fun first; production second (or never).
+- [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - Mario driven from structured emulator state — a toy surface with a serious lesson: feed observed state, not raw pixels, when you can. Listed for teaching action-space hygiene. Fun first; production second (or never).
 
 
-## Use cases & concepts (watching)
+## Use cases & concepts
 
-**Not formal list entries.** These are high-discussion **use-case / concept** showcases — threads and essays that make a System One pattern clickable. Steal the idea; do not expect a polished repo (unless noted). When a solid public artifact appears, we may promote it upstairs.
+Discussion threads and essays that illustrate System One patterns in the wild. Many are demos or write-ups without a polished public repo (unless noted). When a solid open artifact appears, it may move into the main categories above.
 
 ### Framing
 
@@ -138,12 +138,12 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 
 ### Real-time / multi-agent concepts
 
-- [Minecraft: Jev reacts, Astra plans](https://x.com/wuyang_zhou/status/2100727660875808913) - Fast System One + slow System Two split under live load. No public repo verified; steal the role boundary, not the clip.
+- [Minecraft: Jev reacts, Astra plans](https://x.com/wuyang_zhou/status/2100727660875808913) - Fast System One + slow System Two split under live load. No public repo verified; learn from the role boundary, not the clip.
 - [Emotion cellular automata](https://x.com/riku720720/status/2100738087584481657) - Many parallel agents updating state with Jev — unusual multi-body concept (not another single-player bot). Lower likes; higher novelty.
 
 ### Circulating (caveats)
 
-Heat without a clean ship target — keep as radar, not recipes:
+Widely shared demos with real heat but no clean public ship target yet — useful for orientation, not as copy-paste starters:
 
 - [“Rebuilt Tesla FSD in under an hour”](https://x.com/jpschroeder/status/2100347770867458384) - Extreme loop story; treat claims as marketing until reproducible.
 - [Subway Surfers + 50 parallel games](https://x.com/_MaxBlade/status/2100634359099232678) - Parallel decision-cost narrative; demo-only.
@@ -156,8 +156,8 @@ Independent projects and **related / inspired models** that explore System One�
 
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) ![GitHub stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf?style=flat) - “Semantic ifs” from open models on a home 3090 — explicitly independent, not affiliated with TypeSafe. Sparse X (e.g. [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010)) but enough inspired-by signal for tinkerers who want local conditionals. For DIY GPU owners; expect research edges, not a polished SaaS twin.
 - [jevlike](https://github.com/vinnylarouge/jevlike) ![GitHub stars](https://img.shields.io/github/stars/vinnylarouge/jevlike?style=flat) - Train a small model for one-pass option probabilities (Doom / chess / Wikispeedia). Independent / inspired-by study piece with sparse X plus solid HN traction (~161 pts). Great if you want to feel how System One–shaped outputs are learned; not a drop-in Jev replacement and not affiliated.
-- [laya](https://github.com/NandhaKishorM/laya) ![GitHub stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat) - Open System One–flavored decision model you can run locally ([HF](https://huggingface.co/convaiinnovations/laya), PyPI `laya`) — **not affiliated with TypeSafe**. We like the shippable stack and the **selective gating** story (abstain / defer when unsure). Author-published latency/accuracy charts vs Jev are interesting radar, **not** a shared benchmark: Jev numbers often lean on frontier agreement, Laya on in-task self-eval — do not read them as “beats Jev.” For builders who want an open alternative to try; keep the methodology caveat taped to the fridge.
-- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - Open “Jev recipe” (LoRA + constrained serving) — not affiliated with TypeSafe, listed because the recipe itself is the product. [@madiator](https://x.com/madiator/status/2100990591215783946) and HN both gave it heat. For teams who want to cook their own System One–ish model; bring ML ops patience.
+- [laya](https://github.com/NandhaKishorM/laya) ![GitHub stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat) - Open System One–flavored decision model you can run locally ([HF](https://huggingface.co/convaiinnovations/laya), PyPI `laya`) — **not affiliated with TypeSafe**. Notable for the shippable stack and the **selective gating** story (abstain / defer when unsure). Author-published latency/accuracy charts vs Jev are interesting radar, **not** a shared benchmark: Jev numbers often lean on frontier agreement, Laya on in-task self-eval — do not read them as “beats Jev.” For builders who want an open alternative to try; keep the methodology caveat in mind.
+- [nimble](https://github.com/bespokelabsai/nimble) ![GitHub stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat) - Open “Jev recipe” (LoRA + constrained serving) — not affiliated with TypeSafe; the recipe itself is the product, which is why it is here. [@madiator](https://x.com/madiator/status/2100990591215783946) and HN both gave it heat. For teams who want to cook their own System One–ish model; bring ML ops patience.
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) ![GitHub stars](https://img.shields.io/github/stars/ekzhang/openjev-sglang?style=flat) - Prefill-only Jev-compatible API on SGLang — independent, not affiliated. HN discussion is the inclusion ticket: serving shape matters as much as model weights. For infra folks already living in SGLang; read “compatible” as “shape-alike,” not “official.”
 - [open-jev](https://github.com/daseinlabs/open-jev) ![GitHub stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat) - Local Gemma/MLX option scoring. Not affiliated with TypeSafe; on the list for HN curiosity and laptop-friendly experiments. Ideal for Apple/local explorers; treat scores as educational, not production calibration.
 - [mini-jev](https://github.com/r-ms/mini-jev) ![GitHub stars](https://img.shields.io/github/stars/r-ms/mini-jev?style=flat) - Small Qwen3 letter-logits experiment toward System One–style choices. Independent, not affiliated; HN is why it sits here. For researchers poking logits with a stick — charming, not a product.
@@ -172,7 +172,7 @@ More entries welcome when X (or HN) shows sustained practical interest — open 
 Use these when you want coverage over curation:
 
 - [awesomejev.com](https://awesomejev.com/) - The big auto-refreshed directory (repos, sites, threads) when you need breadth we deliberately refuse. Use it to discover; come back here to decide. Great companion, not a substitute for taste.
-- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - Community awesome list for Jev projects — wider net, lighter editorial voice than ours. We like it as a peer radar. Cross-check notes before you adopt anything quiet.
+- [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - Community awesome list for Jev projects — wider net, lighter editorial voice than ours. Useful as a peer radar. Cross-check notes before you adopt anything quiet.
 - [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - Broader TypeSafe + System One + Jev resources beyond “apps that call the API.” Selected for people mapping the whole landscape. Expect more links per page than spicy takes.
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - Long-form explainer covering SDK, Gateway, and `evaluate` — the essay you send a teammate who does not want fifteen tabs. Warm, practical, slightly opinionated in a good way. Best as onboarding, not as a living catalog.
 
