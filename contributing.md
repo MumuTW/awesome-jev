@@ -16,6 +16,13 @@ Meet **at least two** of:
 
 Projects that **do not** call TypeSafe may still qualify if X (or HN) discussion shows practical interest or heat. Label them under **Jev-like & related models** and say they are independent / inspired-by.
 
+
+### Use cases & concepts (watching)
+
+High X (or essay) heat that teaches a **reusable pattern**, even when there is **no** polished public repo — or the repo is secondary to the thread. Label the section clearly. Prefer linking the discussion URL. Promote upstairs when a verifiable artifact appears.
+
+Do **not** use this bucket for unverifiable flex, thin Ultrafast clones, or “also mentions Jev” noise.
+
 ## What does not
 
 - Name collisions unrelated to TypeSafe Jev or the System One idea.

@@ -38,6 +38,7 @@
   - [路由器](#路由器)
   - [資料與函式庫](#資料與函式庫)
   - [值得研究的 Demo](#值得研究的-demo)
+- [Use case 與概念展示（觀察中）](#use-case-與概念展示觀察中)
 - [Jev-like 與相關模型](#jev-like-與相關模型)
 - [相關清單](#相關清單)
 - [由 Grok Bot 維護](#由-grok-bot-維護)
@@ -60,6 +61,7 @@
 - **Coding 用法在閘門，不在寫作。**
 - **延遲敘事 > 星數。** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) 即使沒有廣為引用的 launch 帖也值得看。
 - **入場路徑：** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)（[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)）。
+- **高討論但缺可交付 repo 的概念仍然有價值。** 收進 [Use case 與概念展示（觀察中）](#use-case-與概念展示觀察中)——讓人「看懂 pattern」的帖／長文，不是 fork 目標。驗證薄弱的病毒 flex 不進，或只留一句警告。
 - **Jev-like 熱度是訊號，不是歸屬。**
 
 ## 官方
@@ -107,6 +109,38 @@
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - 每個 Monad block 對 Kuru MON-USDC 做一次買／賣決策——熱迴圈加校準過的 choice，不是「感覺看多」的聊天機器人。[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) 讓這模板傳開。偷它的節奏；別當投資建議，也別當正式交易台。
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 用結構化模擬器狀態玩 Mario——玩具表面，認真教訓：能餵觀測狀態就別硬餵像素。我們留它是為了教 action-space 衛生。好玩第一；上線第二（或永遠不上）。
+
+
+## Use case 與概念展示（觀察中）
+
+**不是正式條目。** 這裡放高討論的 **use case／概念** 展示——讓 System One pattern 可點進去看的帖與文章。偷想法即可；除非另註，不要期待打磨好的 repo。有扎實公開產物後，再考慮升格到上方分類。
+
+### 框架
+
+- [LLMs 產答案，Jev 做決定](https://x.com/paarangatrai/status/2100113737097367896) - 在 X 上站穩的一句心智模型。用來跟隊友解釋 System One；這是框架，不是產品。
+- [WTF Is Jev? 九件社群已在做的事](https://x.com/mvanhorn/status/2100784142850097482) - 有收據的模式總覽：給候選（別發明）、快反應／慢規劃、可量測迴圈。當「該看什麼」地圖，不要當複刻清單。
+- [用 Jev 組 Harness（LangChain）](https://x.com/sydneyrunkle/status/2100754364545761643) - 架構文：Jev 當 agent 迴圈裡的閘門（路由、高風險 tool）。學 harness 形狀；主產物是 blog／LangChain middleware，不是玩具 demo repo。
+
+### 產品感 Demo（repo 可有可無）
+
+- [意圖 launcher——「我剛下載的 PDF」](https://x.com/dabit3/status/2100756930054504776) - 在有限候選上讀 keystroke 意圖（約 100 ms）。工作碼在 [dabit3/jev-experiments](https://github.com/dabit3/jev-experiments)（`jev-launcher`）；先當 use-case 故事，因為大家引用的是這則帖。
+- [預測試算表——欄位標題當 schema](https://x.com/dabit3/status/2100780008193020049) - 「試算表重算數字，不重算意義。」同實驗庫（`judge-sheets`）。很適合 inbox／分流表的隱喻。
+- [語音 → Jev → 瀏覽器點擊](https://x.com/moritzkremb/status/2100577979021832365) - 雙手被佔住時的控制迴圈（作者數字約 300 ms／~$0.0002）。影片 demo；未核到公開 repo——只收 pattern。
+- [本機 OCR 標籤 → Jev 選點](https://x.com/milindlabs/status/2100631847155994852) - 本地感知、只送文字給 Jev（約 90 ms）。補足上方的 [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)；不同作者、同一課：可觀測的 action space。未核到 repo。
+
+### 即時／多智能體概念
+
+- [Minecraft：Jev 反應、Astra 規劃](https://x.com/wuyang_zhou/status/2100727660875808913) - 活負載下的快 System One＋慢 System Two 分工。未核到公開 repo；偷角色邊界，別偷片段當藍圖。
+- [情緒細胞自動機](https://x.com/riku720720/status/2100738087584481657) - 多個 agent 並行用 Jev 更新狀態——少見的多體概念（不是又一個單人遊戲 bot）。讚數較低；新意較高。
+
+### 流傳中（附保留）
+
+熱、但沒有乾淨可交付物——當雷達，不當食譜：
+
+- [「一小時重做 Tesla FSD」](https://x.com/jpschroeder/status/2100347770867458384) - 極端迴圈敘事；可重現前先當行銷。
+- [Subway Surfers＋50 平行局](https://x.com/_MaxBlade/status/2100634359099232678) - 並行決策成本敘事；僅 demo。
+- [Slay the Spire 2 約 0.7s 選招](https://x.com/coolish/status/2100570517954838897) - 有限遊戲 action space；僅 demo。
+- [貼文病毒分（61 問／SuperX）](https://x.com/robj3d3/status/2100722975645598191) - 並行多問打分的產品試用連結；帖內無公開 GitHub。
 
 ## Jev-like 與相關模型
 

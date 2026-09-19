@@ -38,6 +38,7 @@ Standing on the shoulders of lists we like:
   - [Routers](#routers)
   - [Data & libraries](#data--libraries)
   - [Demos worth studying](#demos-worth-studying)
+- [Use cases & concepts (watching)](#use-cases--concepts-watching)
 - [Jev-like & related models](#jev-like--related-models)
 - [Related lists](#related-lists)
 - [Maintained by Grok Bot](#maintained-by-grok-bot)
@@ -68,6 +69,7 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 - **Coding-agent use is about gates, not authorship.** Compaction, review, tool allow/deny, and model routing are natural System One jobs.
 - **Latency narratives travel farther than star counts.** Prefer measured loops. [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) is listed for trend and usefulness even without a widely cited launch thread.
 - **Access path matters.** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) (`typesafe-ai/jev`) changed who could experiment overnight ([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
+- **High-heat concepts without a shippable repo still matter.** They land in [Use cases & concepts (watching)](#use-cases--concepts-watching) — X threads and essays that teach a pattern, not a fork target. Viral flex with weak verification stays out or gets a one-line caveat.
 - **Jev-like heat is a signal, not affiliation.** SemIf / jevlike teach open alternatives; X/HN chatter is why they sit here — always label independent.
 
 ## Official
@@ -115,6 +117,38 @@ Out: dump directories, unused renames, thin Ultrafast clones, and name collision
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - One buy/sell decision per Monad block on Kuru MON-USDC — a hot loop with a calibrated choice, not a chatbot that “feels bullish.” [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) made the template travel. Study the pacing; do not treat it as financial advice or a production trading desk.
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - Mario driven from structured emulator state — a toy surface with a serious lesson: feed observed state, not raw pixels, when you can. We keep it for teaching action-space hygiene. Fun first; production second (or never).
+
+
+## Use cases & concepts (watching)
+
+**Not formal list entries.** These are high-discussion **use-case / concept** showcases — threads and essays that make a System One pattern clickable. Steal the idea; do not expect a polished repo (unless noted). When a solid public artifact appears, we may promote it upstairs.
+
+### Framing
+
+- [LLMs generate answers. Jev makes decisions.](https://x.com/paarangatrai/status/2100113737097367896) - One-line mental model that stuck hard on X. Use it to explain System One to teammates; it is a frame, not a product.
+- [WTF Is Jev? 9 Things People Are Already Building](https://x.com/mvanhorn/status/2100784142850097482) - Pattern roundup with receipts: give candidates (do not invent), fast reacts / slow plans, measured loops. Best as a map of *what to look for*, not a clone checklist.
+- [Building a Harness with Jev (LangChain)](https://x.com/sydneyrunkle/status/2100754364545761643) - Architecture write-up: Jev as gates inside the agent loop (routing, risky-tool checks). Study the harness shape; the primary artifact is the blog / LangChain middleware, not a toy demo repo.
+
+### Product-shaped demos (repo optional)
+
+- [Intent launcher — “the PDF I just downloaded”](https://x.com/dabit3/status/2100756930054504776) - Keystroke intent over a finite candidate set (~100 ms). Working code lives in [dabit3/jev-experiments](https://github.com/dabit3/jev-experiments) (`jev-launcher`); listed here as a use-case story first because the X thread is what people quote.
+- [Predictive spreadsheet — column header as schema](https://x.com/dabit3/status/2100780008193020049) - “Spreadsheets recalculate numbers, not meaning.” Same experiments repo (`judge-sheets`). Strong metaphor for inbox / triage tables.
+- [Voice → Jev → browser clicks](https://x.com/moritzkremb/status/2100577979021832365) - Hands-busy control loop (~300 ms / ~$0.0002 in the author’s numbers). Video demo; no public repo verified — pattern only.
+- [On-device OCR labels → Jev pick-to-click](https://x.com/milindlabs/status/2100631847155994852) - Local perception, text-only to Jev (~90 ms). Complements listed [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use); different author, same “observed action space” lesson. No repo verified.
+
+### Real-time / multi-agent concepts
+
+- [Minecraft: Jev reacts, Astra plans](https://x.com/wuyang_zhou/status/2100727660875808913) - Fast System One + slow System Two split under live load. No public repo verified; steal the role boundary, not the clip.
+- [Emotion cellular automata](https://x.com/riku720720/status/2100738087584481657) - Many parallel agents updating state with Jev — unusual multi-body concept (not another single-player bot). Lower likes; higher novelty.
+
+### Circulating (caveats)
+
+Heat without a clean ship target — keep as radar, not recipes:
+
+- [“Rebuilt Tesla FSD in under an hour”](https://x.com/jpschroeder/status/2100347770867458384) - Extreme loop story; treat claims as marketing until reproducible.
+- [Subway Surfers + 50 parallel games](https://x.com/_MaxBlade/status/2100634359099232678) - Parallel decision-cost narrative; demo-only.
+- [Slay the Spire 2 ~0.7s picks](https://x.com/coolish/status/2100570517954838897) - Finite game action space; demo-only.
+- [Viral post scorer (61 questions / SuperX)](https://x.com/robj3d3/status/2100722975645598191) - Parallel multi-question scoring as a product try-link; no public GitHub in the thread.
 
 ## Jev-like & related models
 
