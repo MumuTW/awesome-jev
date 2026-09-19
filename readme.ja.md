@@ -38,6 +38,7 @@
   - [ルータ](#ルータ)
   - [データ＆ライブラリ](#データライブラリ)
   - [研究価値のあるデモ](#研究価値のあるデモ)
+- [ユースケースと概念（ウォッチ）](#ユースケースと概念ウォッチ)
 - [Jev-like と関連モデル](#jev-like-と関連モデル)
 - [関連リスト](#関連リスト)
 - [Grok Bot がメンテ](#grok-bot-がメンテ)
@@ -62,6 +63,7 @@
 - **コーディング用途はゲート（compaction／review／routing）、執筆ではない。**
 - **遅延の物語 > Star。** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) は広く引用された launch 投稿がなくても収録する価値がある。
 - **入口:** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)（[@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)）。
+- **高熱でも届け物の薄い概念にも価値がある。** [ユースケースと概念（ウォッチ）](#ユースケースと概念ウォッチ) へ——pattern を理解させるスレ／長文であり、fork 先ではない。検証の弱いバイラル flex は入れないか、一言の注意だけ。
 - **Jev-like の熱はシグナルであり所属ではない。**
 
 ## 公式
@@ -109,6 +111,38 @@
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad ブロックごとに Kuru MON-USDC の売買を一回——熱いループと校正された choice。「強気っぽい」チャットボットではない。[@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) が型を運んだ。リズムを盗んで；投資助言や本番デスクにはしないで。
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 構造化されたエミュレータ状態から Mario。おもちゃの表面に本気の教訓：できるなら画素ではなく観測状態を食え。action-space の衛生教育用に残しています。楽しさ第一；本番は第二（または永遠に来ない）。
+
+## ユースケースと概念（ウォッチ）
+
+**正式エントリではない。** 議論の熱い **ユースケース／概念** のショーケース——System One の pattern を「見て分かる」スレと記事。アイデアを盗めばよい；注記がなければ磨かれた repo を期待しない。しっかりした公開成果が出たら上の分類へ昇格することもある。
+
+### フレーミング
+
+- [LLM は答えを生成し、Jev は決断する](https://x.com/paarangatrai/status/2100113737097367896) - X で刺さった一行のメンタルモデル。チームに System One を説明する枠。製品ではない。
+- [WTF Is Jev? すでに作られている 9 のこと](https://x.com/mvanhorn/status/2100784142850097482) - 証拠つきパターン地図：候補を渡す（発明しない）、速い反応／遅い計画、測定ループ。複製チェックリストにしない。
+- [Jev で Harness を組む（LangChain）](https://x.com/sydneyrunkle/status/2100754364545761643) - アーキ文：エージェントループ内のゲート（ルーティング、危険な tool）。形を学べ；主成果は blog／middleware、玩具 demo ではない。
+
+### プロダクト感デモ（repo は任意）
+
+- [意図ランチャー——「さっき落とした PDF」](https://x.com/dabit3/status/2100756930054504776) - 有限候補上の keystroke 意図（約 100 ms）。コードは [dabit3/jev-experiments](https://github.com/dabit3/jev-experiments)（`jev-launcher`）。まず use-case 物語として——人々が引用するのはこのスレ。
+- [予測スプレッドシート——列見出しが schema](https://x.com/dabit3/status/2100780008193020049) - 「表は数字を再計算するが、意味は再計算しない。」同実験 repo（`judge-sheets`）。inbox／振り分け表のメタファーが強い。
+- [音声 → Jev → ブラウザクリック](https://x.com/moritzkremb/status/2100577979021832365) - 両手が塞がっているときの制御ループ（著者数字 約 300 ms／~$0.0002）。動画 demo；公開 repo 未確認——pattern のみ。
+- [端末 OCR ラベル → Jev が選んでクリック](https://x.com/milindlabs/status/2100631847155994852) - ローカル知覚、Jev へは文字のみ（約 90 ms）。掲載の [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) を補完；別作者、同じ「観測可能な action space」の教訓。repo 未確認。
+
+### リアルタイム／マルチエージェント概念
+
+- [Minecraft：Jev が反応、Astra が計画](https://x.com/wuyang_zhou/status/2100727660875808913) - ライブ負荷下の速い System One＋遅い System Two。公開 repo 未確認；役割境界を盗め、クリップを青写真にするな。
+- [感情セルオートマトン](https://x.com/riku720720/status/2100738087584481657) - 多数 agent が並行に Jev で状態更新——珍しい多体概念（単機ゲーム bot の繰り返しではない）。いいねは低め、新規性は高め。
+
+### 流通中（注釈つき）
+
+熱いがきれいな届け物がない——レーダーでありレシピではない：
+
+- [「1 時間で Tesla FSD を作り直した」](https://x.com/jpschroeder/status/2100347770867458384) - 極端なループ話；再現できるまでマーケ扱い。
+- [Subway Surfers＋50 並列](https://x.com/_MaxBlade/status/2100634359099232678) - 並列意思決定コストの物語；demo のみ。
+- [Slay the Spire 2 約 0.7s 選択](https://x.com/coolish/status/2100570517954838897) - 有限ゲーム action space；demo のみ。
+- [バイラル投稿スコア（61 問／SuperX）](https://x.com/robj3d3/status/2100722975645598191) - 並列マルチ質問スコアの試用リンク；スレ内に公開 GitHub なし。
+
 
 ## Jev-like と関連モデル
 

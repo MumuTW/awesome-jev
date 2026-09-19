@@ -38,6 +38,7 @@
   - [라우터](#라우터)
   - [데이터 & 라이브러리](#데이터--라이브러리)
   - [연구할 만한 데모](#연구할-만한-데모)
+- [유스케이스 & 개념 (관찰 중)](#유스케이스--개념-관찰-중)
 - [Jev-like & 관련 모델](#jev-like--관련-모델)
 - [관련 목록](#관련-목록)
 - [Grok Bot이 유지보수](#grok-bot이-유지보수)
@@ -62,6 +63,7 @@
 - **코딩 용도는 게이트(compaction/review/routing), 작성 아님.**
 - **지연 서사 > 스타.** [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)은 널리 인용된 런치 글이 없어도 수록할 만하다.
 - **진입점:** [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)([@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175)).
+- **고논의지만 납품 가능한 repo가 약한 개념도 가치가 있다.** [유스케이스 & 개념 (관찰 중)](#유스케이스--개념-관찰-중)에 둔다——pattern을 이해시키는 스레드/에세이지, fork 대상이 아니다. 검증 약한 바이럴 flex는 넣지 않거나 한 줄 주의만.
 - **Jev-like 열기는 신호이지 소속이 아님.**
 
 ## 공식
@@ -109,6 +111,38 @@
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ![GitHub stars](https://img.shields.io/github/stars/jarrodwatts/jev-trader?style=flat) - Monad 블록마다 Kuru MON-USDC 매수/매도 한 번 — 뜨거운 루프 + 보정된 choice. 「강세 느낌」 챗봇이 아님. [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346)가 템플릿을 실어 날림. 리듬을 훔치세요; 투자 조언·프로덕션 데스크로는 쓰지 마세요.
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![GitHub stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat) - 구조화된 에뮬레이터 상태로 Mario. 장난감 표면에 진지한 교훈: 가능하면 픽셀이 아니라 관측 상태를 먹이세요. action-space 위생 교육용으로 남김. 재미가 1순위; 프로덕션은 2순위(또는 영원히 없음).
+
+## 유스케이스 & 개념 (관찰 중)
+
+**정식 항목이 아님.** 논의가 뜨거운 **유스케이스/개념** 쇼케이스——System One pattern을 눌러 볼 수 있는 스레드와 글. 아이디어만 훔치면 된다; 별도 표기가 없으면 다듬어진 repo를 기대하지 말 것. 탄탄한 공개 산출물이 생기면 위 분류로 승격할 수 있다.
+
+### 프레이밍
+
+- [LLM은 답을 생성하고, Jev는 결정을 한다](https://x.com/paarangatrai/status/2100113737097367896) - X에서 꽂힌 한 줄 멘탈 모델. 팀에 System One을 설명하는 틀. 제품이 아님.
+- [WTF Is Jev? 사람들이 이미 만드는 9가지](https://x.com/mvanhorn/status/2100784142850097482) - 영수증 있는 패턴 지도: 후보를 주고(발명하지 말고), 빠른 반응/느린 계획, 측정 루프. 복제 체크리스트로 쓰지 말 것.
+- [Jev로 Harness 짜기 (LangChain)](https://x.com/sydneyrunkle/status/2100754364545761643) - 아키텍처 글: 에이전트 루프 안의 게이트(라우팅, 위험 tool). 형태를 배워라; 주 산출물은 blog/middleware, 장난감 demo가 아님.
+
+### 제품감 데모 (repo는 선택)
+
+- [의도 런처——「방금 받은 PDF」](https://x.com/dabit3/status/2100756930054504776) - 유한 후보 위 keystroke 의도(약 100 ms). 코드는 [dabit3/jev-experiments](https://github.com/dabit3/jev-experiments)(`jev-launcher`). 먼저 use-case 이야기로——사람들이 인용하는 건 이 스레드.
+- [예측 스프레드시트——열 헤더가 schema](https://x.com/dabit3/status/2100780008193020049) - 「표는 숫자를 다시 계산하지, 의미를 다시 계산하지 않는다.」같은 실험 repo(`judge-sheets`). inbox/분류 표 메타포가 강함.
+- [음성 → Jev → 브라우저 클릭](https://x.com/moritzkremb/status/2100577979021832365) - 양손이 바쁠 때의 제어 루프(저자 수치 약 300 ms/~$0.0002). 영상 demo; 공개 repo 미확인——pattern만.
+- [온디바이스 OCR 라벨 → Jev가 골라 클릭](https://x.com/milindlabs/status/2100631847155994852) - 로컬 지각, Jev에는 텍스트만(약 90 ms). 위에 실린 [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)를 보완; 다른 저자, 같은 「관측 가능한 action space」 수업. repo 미확인.
+
+### 실시간/멀티에이전트 개념
+
+- [Minecraft: Jev가 반응, Astra가 계획](https://x.com/wuyang_zhou/status/2100727660875808913) - 라이브 부하에서 빠른 System One+느린 System Two. 공개 repo 미확인; 역할 경계를 훔치고 클립을 설계도로 쓰지 말 것.
+- [감정 셀룰러 오토마타](https://x.com/riku720720/status/2100738087584481657) - 여러 agent가 병렬로 Jev로 상태 갱신——드문 다체 개념(또 하나의 싱글 플레이 bot이 아님). 좋아요는 낮고 새로움은 높음.
+
+### 유포 중 (주의)
+
+뜨겁지만 깨끗한 납품물이 없음——레이더이지 레시피가 아님:
+
+- [「한 시간 만에 Tesla FSD 재구축」](https://x.com/jpschroeder/status/2100347770867458384) - 극단 루프 서사; 재현 전까지 마케팅으로 취급.
+- [Subway Surfers+50 병렬](https://x.com/_MaxBlade/status/2100634359099232678) - 병렬 결정 비용 서사; demo만.
+- [Slay the Spire 2 약 0.7s 선택](https://x.com/coolish/status/2100570517954838897) - 유한 게임 action space; demo만.
+- [바이럴 포스트 점수(61문/SuperX)](https://x.com/robj3d3/status/2100722975645598191) - 병렬 다질문 점수의 체험 링크; 스레드에 공개 GitHub 없음.
+
 
 ## Jev-like & 관련 모델
 
