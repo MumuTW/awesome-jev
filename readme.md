@@ -172,6 +172,7 @@ More entries welcome when X (or HN) shows sustained practical interest — open 
 Use these when you want coverage over curation:
 
 - [awesomejev.com](https://awesomejev.com/) - The big auto-refreshed directory (repos, sites, threads) when you need breadth we deliberately refuse. Use it to discover; come back here to decide. Great companion, not a substitute for taste.
+- [madewithjev.com](https://madewithjev.com/) - Catalog of 823 Jev builds in 21 use cases, each linked to its source with the cost and speed its author reported. Use it for breadth; it does not filter the way this list does.
 - [yibie/awesome-jev](https://github.com/yibie/awesome-jev) ![GitHub stars](https://img.shields.io/github/stars/yibie/awesome-jev?style=flat) - Community awesome list for Jev projects — wider net, lighter editorial voice than ours. Useful as a peer radar. Cross-check notes before you adopt anything quiet.
 - [AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ![GitHub stars](https://img.shields.io/github/stars/AbdelStark/awesome-typesafe?style=flat) - Broader TypeSafe + System One + Jev resources beyond “apps that call the API.” Selected for people mapping the whole landscape. Expect more links per page than spicy takes.
 - [Flavio Copes — deep dive](https://flaviocopes.com/jev/) - Long-form explainer covering SDK, Gateway, and `evaluate` — the essay you send a teammate who does not want fifteen tabs. Warm, practical, slightly opinionated in a good way. Best as onboarding, not as a living catalog.
